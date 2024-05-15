@@ -1,0 +1,5 @@
+F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP.dir
+F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
+F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen_timestamp_deps.dir
+F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir
