@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-qezz98"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-qezz98"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3o0b42"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3o0b42"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -119,11 +119,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-qezz98'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3o0b42'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_e2ae1
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_e2ae1.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_e2ae1.dir\\ /FS -c F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e2ae1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_e2ae1.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_e2ae1.exe /implib:cmTC_e2ae1.lib /pdb:cmTC_e2ae1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7df4f
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_7df4f.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_7df4f.dir\\ /FS -c F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7df4f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7df4f.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_7df4f.exe /implib:cmTC_7df4f.lib /pdb:cmTC_7df4f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-byuwqm"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-byuwqm"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3a6i04"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3a6i04"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -145,11 +145,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-byuwqm'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3a6i04'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_57b09
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_57b09.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_57b09.dir\\ /FS -c F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_57b09.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_57b09.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_57b09.exe /implib:cmTC_57b09.lib /pdb:cmTC_57b09.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9fcb7
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_9fcb7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_9fcb7.dir\\ /FS -c F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9fcb7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9fcb7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_9fcb7.exe /implib:cmTC_9fcb7.lib /pdb:cmTC_9fcb7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -167,8 +167,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7x4xsw"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7x4xsw"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7oa006"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7oa006"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -178,13 +178,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7x4xsw'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-7oa006'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_87abb
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_87abb.dir\\src.c.obj /FdCMakeFiles\\cmTC_87abb.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7x4xsw\\src.c
-        FAILED: CMakeFiles/cmTC_87abb.dir/src.c.obj 
-        "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_87abb.dir\\src.c.obj /FdCMakeFiles\\cmTC_87abb.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7x4xsw\\src.c
-        F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7x4xsw\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_741a7
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_741a7.dir\\src.c.obj /FdCMakeFiles\\cmTC_741a7.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7oa006\\src.c
+        FAILED: CMakeFiles/cmTC_741a7.dir/src.c.obj 
+        "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_741a7.dir\\src.c.obj /FdCMakeFiles\\cmTC_741a7.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7oa006\\src.c
+        F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-7oa006\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -202,8 +202,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eia2aa"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eia2aa"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3lemb9"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3lemb9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -213,14 +213,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-eia2aa'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3lemb9'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ff557
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_ff557.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ff557.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-eia2aa\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff557.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ff557.dir\\CheckFunctionExists.c.obj  /out:cmTC_ff557.exe /implib:cmTC_ff557.lib /pdb:cmTC_ff557.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_ff557.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff557.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ff557.dir\\CheckFunctionExists.c.obj  /out:cmTC_ff557.exe /implib:cmTC_ff557.lib /pdb:cmTC_ff557.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff557.dir\\CheckFunctionExists.c.obj /out:cmTC_ff557.exe /implib:cmTC_ff557.lib /pdb:cmTC_ff557.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ff557.dir/intermediate.manifest CMakeFiles\\cmTC_ff557.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_8fba7
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_8fba7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_8fba7.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-3lemb9\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8fba7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8fba7.dir\\CheckFunctionExists.c.obj  /out:cmTC_8fba7.exe /implib:cmTC_8fba7.lib /pdb:cmTC_8fba7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_8fba7.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8fba7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8fba7.dir\\CheckFunctionExists.c.obj  /out:cmTC_8fba7.exe /implib:cmTC_8fba7.lib /pdb:cmTC_8fba7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8fba7.dir\\CheckFunctionExists.c.obj /out:cmTC_8fba7.exe /implib:cmTC_8fba7.lib /pdb:cmTC_8fba7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8fba7.dir/intermediate.manifest CMakeFiles\\cmTC_8fba7.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -239,8 +239,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dck5yy"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dck5yy"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-erfqru"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-erfqru"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -250,14 +250,14 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dck5yy'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-erfqru'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_4de4e
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4de4e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4de4e.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-dck5yy\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4de4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4de4e.dir\\CheckFunctionExists.c.obj  /out:cmTC_4de4e.exe /implib:cmTC_4de4e.lib /pdb:cmTC_4de4e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_4de4e.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4de4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4de4e.dir\\CheckFunctionExists.c.obj  /out:cmTC_4de4e.exe /implib:cmTC_4de4e.lib /pdb:cmTC_4de4e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4de4e.dir\\CheckFunctionExists.c.obj /out:cmTC_4de4e.exe /implib:cmTC_4de4e.lib /pdb:cmTC_4de4e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4de4e.dir/intermediate.manifest CMakeFiles\\cmTC_4de4e.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_0b185
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_0b185.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0b185.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-erfqru\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b185.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b185.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b185.exe /implib:cmTC_0b185.lib /pdb:cmTC_0b185.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_0b185.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b185.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b185.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b185.exe /implib:cmTC_0b185.lib /pdb:cmTC_0b185.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0b185.dir\\CheckFunctionExists.c.obj /out:cmTC_0b185.exe /implib:cmTC_0b185.lib /pdb:cmTC_0b185.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0b185.dir/intermediate.manifest CMakeFiles\\cmTC_0b185.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -277,8 +277,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-908n19"
-      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-908n19"
+      source: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n8ipmx"
+      binary: "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n8ipmx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -288,11 +288,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-908n19'
+        Change Dir: 'F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n8ipmx'
         
-        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d32b5
-        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d32b5.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_d32b5.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-908n19\\src.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d32b5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d32b5.dir\\src.cxx.obj  /out:cmTC_d32b5.exe /implib:cmTC_d32b5.lib /pdb:cmTC_d32b5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): F:/Jetbrain/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_3b03e
+        [1/2] "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_3b03e.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3b03e.dir\\ /FS -c F:\\CODE\\GIThub\\C_plus_plus\\FirstC++APP\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-n8ipmx\\src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && F:\\Jetbrain\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_3b03e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- "F:\\Visual Studio 2022\\IDE\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_3b03e.dir\\src.cxx.obj  /out:cmTC_3b03e.exe /implib:cmTC_3b03e.lib /pdb:cmTC_3b03e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...
