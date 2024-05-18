@@ -2,7 +2,22 @@
 // Created by Lenovo on 24-5-18.
 //
 
-#ifndef FIRSTC__APP_STUDENTCONTROLLER_H
-#define FIRSTC__APP_STUDENTCONTROLLER_H
+#ifndef STUDENTCONTROLLER_H
+#define STUDENTCONTROLLER_H
 
-#endif //FIRSTC__APP_STUDENTCONTROLLER_H
+#include "student.h"
+
+class StudentController {
+public:
+    StudentController();
+
+    void addStudent(const QString& name, int age);
+    void editStudent(int id, const QString& name, int age);
+    void deleteStudent(int id);
+
+private:
+    Student student;
+};
+
+#endif // STUDENTCONTROLLER_H
+

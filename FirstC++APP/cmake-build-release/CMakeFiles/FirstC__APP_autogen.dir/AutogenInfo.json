@@ -348,12 +348,93 @@
 		"F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
 		"F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-debug.cmake",
 		"F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
-		"F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake"
+		"F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/resources/FirstC++APP.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP",
 	"DEP_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "FirstC__APP_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/adminview.h",
+			"MU",
+			"QM7UNKGVG2/moc_adminview.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/loginview.h",
+			"MU",
+			"QM7UNKGVG2/moc_loginview.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/studentview.h",
+			"MU",
+			"QM7UNKGVG2/moc_studentview.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/controllers/admincontroller.h",
+			"MU",
+			"BAFWLH3SZT/moc_admincontroller.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/controllers/studentcontroller.h",
+			"MU",
+			"BAFWLH3SZT/moc_studentcontroller.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/database/dbmanager.h",
+			"MU",
+			"CRGL2FGSXR/moc_dbmanager.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/database/querymodel.h",
+			"MU",
+			"CRGL2FGSXR/moc_querymodel.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/models/course.h",
+			"MU",
+			"EPPU6REHSQ/moc_course.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/models/enrollment.h",
+			"MU",
+			"EPPU6REHSQ/moc_enrollment.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/models/student.h",
+			"MU",
+			"EPPU6REHSQ/moc_student.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/views/adminview.h",
+			"MU",
+			"CY5N3QYTG5/moc_adminview.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/views/loginview.h",
+			"MU",
+			"CY5N3QYTG5/moc_loginview.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/views/studentview.h",
+			"MU",
+			"CY5N3QYTG5/moc_studentview.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/include",
 	"MOC_COMPILATION_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/mocs_compilation.cpp",
@@ -431,7 +512,75 @@
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
 	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/FirstC__APP_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SOURCES" : 
+	[
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/adminview.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/loginview.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/studentview.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/admincontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/studentcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/dbmanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/querymodel.cpp",
+			"MU",
+			null
+		],
+		[ "F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/main.cpp", "MU", null ],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/course.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/enrollment.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/student.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/adminview.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/loginview.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/studentview.cpp",
+			"MU",
+			null
+		]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],

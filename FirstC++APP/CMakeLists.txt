@@ -27,11 +27,25 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/views
         ${PROJECT_SOURCE_DIR}/include/controllers
 )
+# Include files
+set(INCLUDES
+        include/database/dbmanager.h
+        include/database/querymodel.h
+        include/models/student.h
+        include/models/course.h
+        include/models/enrollment.h
+        include/views/studentview.h
+        include/views/adminview.h
+        include/views/loginview.h
+        include/controllers/studentcontroller.h
+        include/controllers/admincontroller.h
+)
 
 # Source files
 set(SOURCES
         src/main.cpp
         src/database/dbmanager.cpp
+        src/database/querymodel.cpp
         src/models/student.cpp
         src/models/course.cpp
         src/models/enrollment.cpp
@@ -60,11 +74,11 @@ set(FORMS
 
 # Resources
 set(RESOURCES
-        resources/icons.qrc
+        resources/FirstC++APP.qrc
 )
 
 # Create the executable
-add_executable(FirstC__APP ${SOURCES} ${FORMS} ${RESOURCES})
+add_executable(FirstC__APP ${SOURCES} ${FORMS} ${RESOURCES} ${INCLUDES})
 
 # Link the Qt6 libraries
 target_link_libraries(FirstC__APP Qt::Widgets Qt::Core Qt::Gui Qt::Sql Qt::Network)
