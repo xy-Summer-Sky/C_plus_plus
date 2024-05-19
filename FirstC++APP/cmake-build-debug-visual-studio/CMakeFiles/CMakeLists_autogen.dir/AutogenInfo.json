@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen",
+	"BUILD_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeLists_autogen",
 	"CMAKE_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio",
 	"CMAKE_CURRENT_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio",
 	"CMAKE_CURRENT_SOURCE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP",
@@ -277,27 +277,13 @@
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/resources/FirstC++APP.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP",
-	"DEP_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "FirstC__APP_autogen/timestamp",
+	"DEP_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeLists_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "CMakeLists_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/include",
-	"MOC_COMPILATION_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"MINGW_HAS_SECURE_API=1",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NETWORK_LIB",
-		"QT_SQL_LIB",
-		"QT_WIDGETS_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN64",
-		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
-		"_UNICODE",
-		"_WIN64"
-	],
+	"INCLUDE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeLists_autogen/include",
+	"MOC_COMPILATION_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeLists_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "WIN32" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -311,14 +297,7 @@
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/database",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/models",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/views",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/controllers",
-		"F:/Qt/6.7.0/mingw_64/include/QtWidgets",
-		"F:/Qt/6.7.0/mingw_64/include",
-		"F:/Qt/6.7.0/mingw_64/include/QtCore",
-		"F:/Qt/6.7.0/mingw_64/mkspecs/win32-g++",
-		"F:/Qt/6.7.0/mingw_64/include/QtGui",
-		"F:/Qt/6.7.0/mingw_64/include/QtSql",
-		"F:/Qt/6.7.0/mingw_64/include/QtNetwork"
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/controllers"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -336,76 +315,27 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/3YJK5W5UP7/qrc_FirstC++APP.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/mocs_compilation.cpp",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_adminview.h",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_loginview.h",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_studentview.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeLists_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "F:/Qt/6.7.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "F:/Qt/6.7.0/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : 
-	[
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/admincontroller.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/studentcontroller.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/dbmanager.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/querymodel.cpp",
-			"MU",
-			null
-		],
-		[ "F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/main.cpp", "MU", null ],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/course.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/enrollment.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/student.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/adminview.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/loginview.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/studentview.cpp",
-			"MU",
-			null
-		]
-	],
+	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/CMakeLists_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/3YJK5W5UP7/qrc_FirstC++APP.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/mocs_compilation.cpp",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_adminview.h",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_loginview.h",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_studentview.h",

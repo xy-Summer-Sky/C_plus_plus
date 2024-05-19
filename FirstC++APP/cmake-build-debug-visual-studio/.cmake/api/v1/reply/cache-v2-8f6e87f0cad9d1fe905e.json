@@ -2039,7 +2039,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_cross_compile",
@@ -2231,7 +2231,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_debug_and_release",
@@ -2243,7 +2243,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_desktopservices",
@@ -2690,18 +2690,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_eventfd",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: eventfd (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_f16c",
 			"properties" : 
 			[
@@ -2990,18 +2978,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_glibc",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: glibc (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_graphicseffect",
 			"properties" : 
 			[
@@ -3012,6 +2988,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_graphicsframecapture",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: graphicsframecapture (from target Qt6::Gui)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_graphicsview",
@@ -3080,18 +3068,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: harfbuzz (from target Qt6::Gui)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_headersclean",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: headersclean (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -3168,18 +3144,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_ifr_index",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: ifr_index (from target Qt6::Network)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_im",
@@ -3818,18 +3782,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_msvc_obj_debug_info",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: msvc_obj_debug_info (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_mtdev",
 			"properties" : 
 			[
@@ -4259,7 +4211,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_posix_shm",
@@ -4499,7 +4451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_reduce_relocations",
@@ -4679,7 +4631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_sessionmanager",
@@ -5066,18 +5018,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_statx",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: statx (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_std_atomic64",
 			"properties" : 
 			[
@@ -5168,6 +5108,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: style_windows (from target Qt6::Widgets)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_style_windows11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: style_windows11 (from target Qt6::Widgets)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -5930,6 +5882,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "QT_FEATURE_wayland",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: wayland (from target Qt6::Gui)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_whatsthis",
 			"properties" : 
 			[
@@ -6203,7 +6167,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6CoreTools"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -6215,7 +6179,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Core"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6EntryPointPrivate_DIR",
@@ -6227,7 +6191,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6EntryPointPrivate"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6EntryPointPrivate"
 		},
 		{
 			"name" : "Qt6GuiTools_DIR",
@@ -6239,7 +6203,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6GuiTools"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -6251,7 +6215,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Gui"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6Network_DIR",
@@ -6263,7 +6227,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network"
 		},
 		{
 			"name" : "Qt6Sql_DIR",
@@ -6275,7 +6239,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Sql"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -6287,7 +6251,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6WidgetsTools"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -6299,7 +6263,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Widgets"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6ZlibPrivate_DIR",
@@ -6311,7 +6275,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6ZlibPrivate"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6ZlibPrivate"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -6323,7 +6287,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6"
+			"value" : "F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -6399,7 +6363,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "F:/qt2/6.6.0/msvc2019_64/bin/windeployqt.exe"
+			"value" : "F:/Qt/6.7.0/mingw_64/bin/windeployqt.exe"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",

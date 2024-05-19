@@ -307,37 +307,37 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
 //The directory containing a CMake configuration file for Qt6CoreTools.
-Qt6CoreTools_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6CoreTools
+Qt6CoreTools_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6CoreTools
 
 //The directory containing a CMake configuration file for Qt6Core.
-Qt6Core_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Core
+Qt6Core_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Core
 
 //The directory containing a CMake configuration file for Qt6EntryPointPrivate.
-Qt6EntryPointPrivate_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6EntryPointPrivate
+Qt6EntryPointPrivate_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6EntryPointPrivate
 
 //The directory containing a CMake configuration file for Qt6GuiTools.
-Qt6GuiTools_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6GuiTools
+Qt6GuiTools_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6GuiTools
 
 //The directory containing a CMake configuration file for Qt6Gui.
-Qt6Gui_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Gui
+Qt6Gui_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Gui
 
 //The directory containing a CMake configuration file for Qt6Network.
-Qt6Network_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Network
+Qt6Network_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network
 
 //The directory containing a CMake configuration file for Qt6Sql.
-Qt6Sql_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Sql
+Qt6Sql_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
-Qt6WidgetsTools_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6WidgetsTools
+Qt6WidgetsTools_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6WidgetsTools
 
 //The directory containing a CMake configuration file for Qt6Widgets.
-Qt6Widgets_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6Widgets
+Qt6Widgets_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6ZlibPrivate.
-Qt6ZlibPrivate_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6ZlibPrivate
+Qt6ZlibPrivate_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6ZlibPrivate
 
 //The directory containing a CMake configuration file for Qt6.
-Qt6_DIR:PATH=F:/qt2/6.6.0/msvc2019_64/lib/cmake/Qt6
+Qt6_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
@@ -352,7 +352,7 @@ Vulkan_INCLUDE_DIR:PATH=Vulkan_INCLUDE_DIR-NOTFOUND
 Vulkan_LIBRARY:FILEPATH=Vulkan_LIBRARY-NOTFOUND
 
 //Path to a program.
-WINDEPLOYQT_EXECUTABLE:FILEPATH=F:/qt2/6.6.0/msvc2019_64/bin/windeployqt.exe
+WINDEPLOYQT_EXECUTABLE:FILEPATH=F:/Qt/6.7.0/mingw_64/bin/windeployqt.exe
 
 
 ########################
@@ -648,7 +648,7 @@ QT_FEATURE_concurrent:INTERNAL=ON
 //Qt feature: contextmenu (from target Qt6::Widgets)
 QT_FEATURE_contextmenu:INTERNAL=ON
 //Qt feature: cpp_winrt (from target Qt6::Core)
-QT_FEATURE_cpp_winrt:INTERNAL=ON
+QT_FEATURE_cpp_winrt:INTERNAL=OFF
 //Qt feature: cross_compile (from target Qt6::Core)
 QT_FEATURE_cross_compile:INTERNAL=OFF
 //Qt feature: cssparser (from target Qt6::Gui)
@@ -680,9 +680,9 @@ QT_FEATURE_dbus:INTERNAL=ON
 //Qt feature: dbus_linked (from target Qt6::Core)
 QT_FEATURE_dbus_linked:INTERNAL=OFF
 //Qt feature: debug (from target Qt6::Core)
-QT_FEATURE_debug:INTERNAL=ON
+QT_FEATURE_debug:INTERNAL=OFF
 //Qt feature: debug_and_release (from target Qt6::Core)
-QT_FEATURE_debug_and_release:INTERNAL=ON
+QT_FEATURE_debug_and_release:INTERNAL=OFF
 //Qt feature: desktopservices (from target Qt6::Gui)
 QT_FEATURE_desktopservices:INTERNAL=ON
 //Qt feature: developer_build (from target Qt6::Core)
@@ -757,8 +757,6 @@ QT_FEATURE_errormessage:INTERNAL=ON
 QT_FEATURE_etw:INTERNAL=OFF
 //Qt feature: evdev (from target Qt6::Gui)
 QT_FEATURE_evdev:INTERNAL=OFF
-//Qt feature: eventfd (from target Qt6::Core)
-QT_FEATURE_eventfd:INTERNAL=OFF
 //Qt feature: f16c (from target Qt6::Core)
 QT_FEATURE_f16c:INTERNAL=ON
 //Qt feature: filedialog (from target Qt6::Widgets)
@@ -807,10 +805,10 @@ QT_FEATURE_getifaddrs:INTERNAL=OFF
 QT_FEATURE_gif:INTERNAL=ON
 //Qt feature: glib (from target Qt6::Core)
 QT_FEATURE_glib:INTERNAL=OFF
-//Qt feature: glibc (from target Qt6::Core)
-QT_FEATURE_glibc:INTERNAL=OFF
 //Qt feature: graphicseffect (from target Qt6::Widgets)
 QT_FEATURE_graphicseffect:INTERNAL=ON
+//Qt feature: graphicsframecapture (from target Qt6::Gui)
+QT_FEATURE_graphicsframecapture:INTERNAL=OFF
 //Qt feature: graphicsview (from target Qt6::Widgets)
 QT_FEATURE_graphicsview:INTERNAL=ON
 //Qt feature: groupbox (from target Qt6::Widgets)
@@ -823,8 +821,6 @@ QT_FEATURE_gtk3:INTERNAL=OFF
 QT_FEATURE_gui:INTERNAL=ON
 //Qt feature: harfbuzz (from target Qt6::Gui)
 QT_FEATURE_harfbuzz:INTERNAL=ON
-//Qt feature: headersclean (from target Qt6::Core)
-QT_FEATURE_headersclean:INTERNAL=ON
 //Qt feature: highdpiscaling (from target Qt6::Gui)
 QT_FEATURE_highdpiscaling:INTERNAL=ON
 //Qt feature: hijricalendar (from target Qt6::Core)
@@ -837,8 +833,6 @@ QT_FEATURE_ico:INTERNAL=ON
 QT_FEATURE_icu:INTERNAL=OFF
 //Qt feature: identityproxymodel (from target Qt6::Core)
 QT_FEATURE_identityproxymodel:INTERNAL=ON
-//Qt feature: ifr_index (from target Qt6::Network)
-QT_FEATURE_ifr_index:INTERNAL=OFF
 //Qt feature: im (from target Qt6::Gui)
 QT_FEATURE_im:INTERNAL=ON
 //Qt feature: image_heuristic_mask (from target Qt6::Gui)
@@ -945,8 +939,6 @@ QT_FEATURE_mips_dsp:INTERNAL=OFF
 QT_FEATURE_mips_dspr2:INTERNAL=OFF
 //Qt feature: movie (from target Qt6::Gui)
 QT_FEATURE_movie:INTERNAL=ON
-//Qt feature: msvc_obj_debug_info (from target Qt6::Core)
-QT_FEATURE_msvc_obj_debug_info:INTERNAL=ON
 //Qt feature: mtdev (from target Qt6::Gui)
 QT_FEATURE_mtdev:INTERNAL=OFF
 //Qt feature: multiprocess (from target Qt6::Gui)
@@ -1018,7 +1010,7 @@ QT_FEATURE_poll_select:INTERNAL=OFF
 //Qt feature: posix_fallocate (from target Qt6::Core)
 QT_FEATURE_posix_fallocate:INTERNAL=OFF
 //Qt feature: posix_sem (from target Qt6::Core)
-QT_FEATURE_posix_sem:INTERNAL=OFF
+QT_FEATURE_posix_sem:INTERNAL=ON
 //Qt feature: posix_shm (from target Qt6::Core)
 QT_FEATURE_posix_shm:INTERNAL=OFF
 //Qt feature: precompile_header (from target Qt6::Core)
@@ -1058,7 +1050,7 @@ QT_FEATURE_rdrnd:INTERNAL=ON
 //Qt feature: rdseed (from target Qt6::Core)
 QT_FEATURE_rdseed:INTERNAL=ON
 //Qt feature: reduce_exports (from target Qt6::Core)
-QT_FEATURE_reduce_exports:INTERNAL=OFF
+QT_FEATURE_reduce_exports:INTERNAL=ON
 //Qt feature: reduce_relocations (from target Qt6::Core)
 QT_FEATURE_reduce_relocations:INTERNAL=OFF
 //Qt feature: regularexpression (from target Qt6::Core)
@@ -1088,7 +1080,7 @@ QT_FEATURE_sctp:INTERNAL=OFF
 //Qt feature: securetransport (from target Qt6::Network)
 QT_FEATURE_securetransport:INTERNAL=OFF
 //Qt feature: separate_debug_info (from target Qt6::Core)
-QT_FEATURE_separate_debug_info:INTERNAL=OFF
+QT_FEATURE_separate_debug_info:INTERNAL=ON
 //Qt feature: sessionmanager (from target Qt6::Gui)
 QT_FEATURE_sessionmanager:INTERNAL=ON
 //Qt feature: settings (from target Qt6::Core)
@@ -1153,8 +1145,6 @@ QT_FEATURE_static:INTERNAL=OFF
 QT_FEATURE_statusbar:INTERNAL=ON
 //Qt feature: statustip (from target Qt6::Widgets)
 QT_FEATURE_statustip:INTERNAL=ON
-//Qt feature: statx (from target Qt6::Core)
-QT_FEATURE_statx:INTERNAL=OFF
 //Qt feature: std_atomic64 (from target Qt6::Core)
 QT_FEATURE_std_atomic64:INTERNAL=ON
 //Qt feature: stdlib_libcpp (from target Qt6::Core)
@@ -1171,6 +1161,8 @@ QT_FEATURE_style_mac:INTERNAL=OFF
 QT_FEATURE_style_stylesheet:INTERNAL=ON
 //Qt feature: style_windows (from target Qt6::Widgets)
 QT_FEATURE_style_windows:INTERNAL=ON
+//Qt feature: style_windows11 (from target Qt6::Widgets)
+QT_FEATURE_style_windows11:INTERNAL=ON
 //Qt feature: style_windowsvista (from target Qt6::Widgets)
 QT_FEATURE_style_windowsvista:INTERNAL=ON
 //Qt feature: syntaxhighlighter (from target Qt6::Widgets)
@@ -1297,6 +1289,8 @@ QT_FEATURE_vulkan:INTERNAL=ON
 QT_FEATURE_wasm_exceptions:INTERNAL=OFF
 //Qt feature: wasm_simd128 (from target Qt6::Core)
 QT_FEATURE_wasm_simd128:INTERNAL=OFF
+//Qt feature: wayland (from target Qt6::Gui)
+QT_FEATURE_wayland:INTERNAL=OFF
 //Qt feature: whatsthis (from target Qt6::Gui)
 QT_FEATURE_whatsthis:INTERNAL=ON
 //Qt feature: wheelevent (from target Qt6::Gui)

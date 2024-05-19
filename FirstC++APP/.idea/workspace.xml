@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="FirstC__APP" targetName="FirstC__APP" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83cdafd6-78cc-45d9-8861-2d25c9acca86" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/include/views/ui_adminview.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/C_plus_plus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FirstC++APP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QtSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cache-v2-cb77e8c2b46997050647.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-932f9312c11a2fe1a6ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/codemodel-v2-0b584b078c460191507e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/index-2024-05-18T16-51-17-0259.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-FirstC__APP-Debug-e6152b7cb3c2dee09326.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-FirstC__APP_autogen-Debug-950e807183d51119371e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-FirstC__APP_autogen_timestamp_deps-Debug-6870294933b733b982e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/toolchains-v1-c50cb8be44ce2b9c7d06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.qt/QtDeploySupport.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP.dir/CXXDependInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/AutoRcc_FirstC++APP_3YJK5W5UP7_Info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/AutogenInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/foo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clean_additional.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-Debug-Visual Studio-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-fbba8280b37a5c78ec97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-08556364528e43baa668.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-346f7a2711c07463dbe4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-18T16-51-17-0364.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-FirstC__APP-Release-b893c20b9bf0ba7c4541.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-FirstC__APP_autogen-Release-8a6c53e36167e687d0e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-FirstC__APP_autogen_timestamp_deps-Release-65bcfb14be1a44fbc1ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-27c2a78da795fbd25918.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.qt/QtDeploySupport.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/FirstC__APP_autogen.dir/AutoRcc_FirstC++APP_3YJK5W5UP7_Info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/FirstC__APP_autogen.dir/AutogenInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clean_additional.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/adminview.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/adminview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/adminview.ui" beforeDir="false" afterPath="$PROJECT_DIR$/forms/adminview.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/loginview.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/loginview.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/views/ui_loginview.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/loginview.ui" beforeDir="false" afterPath="$PROJECT_DIR$/forms/loginview.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/studentview.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/studentview.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/views/ui_studentview.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/studentview.ui" beforeDir="false" afterPath="$PROJECT_DIR$/forms/studentview.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/views/adminview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/views/loginview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/views/studentview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/studentcontroller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/studentcontroller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/adminview.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/adminview.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/loginview.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/loginview.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/studentview.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/studentview.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qt_project/mainwindow.ui" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gUpghR5ueHBUYXxbYfH7If7EJU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.FirstC__APP.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CODE/GIThub/C_plus_plus/FirstC++APP/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CODE\GIThub\C_plus_plus\FirstC++APP\resources\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CODE\GIThub\C_plus_plus\FirstC++APP\src\views" />
+      <recent name="F:\CODE\GIThub\C_plus_plus\FirstC++APP\include\views" />
+      <recent name="F:\CODE\GIThub\C_plus_plus\FirstC++APP\src" />
+      <recent name="F:\CODE\GIThub\C_plus_plus\FirstC++APP\include" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstC__APP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FirstC__APP" TARGET_NAME="FirstC__APP" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="FirstC__APP" RUN_TARGET_NAME="FirstC__APP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="83cdafd6-78cc-45d9-8861-2d25c9acca86" name="更改" comment="" />
+      <created>1715762125440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715762125440</updated>
+      <workItem from="1715762128350" duration="2834000" />
+      <workItem from="1716031440647" duration="9270000" />
+      <workItem from="1716047966599" duration="1031000" />
+      <workItem from="1716049031432" duration="4456000" />
+      <workItem from="1716085915344" duration="2297000" />
+      <workItem from="1716100574270" duration="1317000" />
+      <workItem from="1716105126091" duration="983000" />
+      <workItem from="1716122662264" duration="460000" />
+      <workItem from="1716127316669" duration="3392000" />
+      <workItem from="1716131609378" duration="279000" />
+      <workItem from="1716131921200" duration="1119000" />
+      <workItem from="1716133112403" duration="47000" />
+      <workItem from="1716133201914" duration="359000" />
+      <workItem from="1716133582545" duration="118000" />
+      <workItem from="1716133713593" duration="211000" />
+      <workItem from="1716133941320" duration="6016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

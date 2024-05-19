@@ -10,12 +10,12 @@
 //}
 // src/main.cpp
 #include <QApplication>
-#include "views/studentview.h"
+#include "ui_studentview.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    StudentView studentView;
+    studentview studentView;
     studentView.show();
 
     return app.exec();

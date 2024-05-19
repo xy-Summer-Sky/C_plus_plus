@@ -2,14 +2,14 @@
 // Created by Lenovo on 24-5-18.
 //
 
-#ifndef FIRSTC__APP_LOGINVIEW_H
-#define FIRSTC__APP_LOGINVIEW_H
+#ifndef FIRSTC__APP_UI_LOGINVIEW_H
+#define FIRSTC__APP_UI_LOGINVIEW_H
 
 #include <QWidget>
 
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class loginview; }
+namespace Ui { class ui_loginview; }
 QT_END_NAMESPACE
 
 class loginview : public QWidget {
@@ -21,8 +21,8 @@ public:
     ~loginview() override;
 
 private:
-    Ui::loginview *ui;
+    Ui::ui_loginview *ui;
 };
 
 
-#endif //FIRSTC__APP_LOGINVIEW_H
+#endif //FIRSTC__APP_UI_LOGINVIEW_H

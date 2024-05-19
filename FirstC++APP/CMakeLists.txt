@@ -6,20 +6,13 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_PREFIX_PATH "F:/qt2/6.6.0/msvc2019_64")
+set(CMAKE_PREFIX_PATH "F:/Qt/6.7.0/mingw_64")
 
-find_package(Qt6 COMPONENTS
-        Core
-        Gui
-        Widgets
-        Sql
-        Network
-        REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Widgets Sql Network REQUIRED)
 
-# Set the output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# Include directories
+
 include_directories(
         ${PROJECT_SOURCE_DIR}/include
         ${PROJECT_SOURCE_DIR}/include/database
@@ -27,21 +20,21 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/views
         ${PROJECT_SOURCE_DIR}/include/controllers
 )
-# Include files
+
 set(INCLUDES
         include/database/dbmanager.h
         include/database/querymodel.h
         include/models/student.h
         include/models/course.h
         include/models/enrollment.h
-        include/views/studentview.h
-        include/views/adminview.h
-        include/views/loginview.h
+        include/views/ui_studentview.h
+        include/views/ui_adminview.h
+        include/views/ui_loginview.h
         include/controllers/studentcontroller.h
         include/controllers/admincontroller.h
 )
 
-# Source files
+
 set(SOURCES
         src/main.cpp
         src/database/dbmanager.cpp
@@ -56,33 +49,21 @@ set(SOURCES
         src/controllers/admincontroller.cpp
 )
 
-# UI files
-set(FORMS
-
-        forms/adminview.cpp
-        forms/adminview.h
-        forms/loginview.cpp
+set(UI_FILES
         forms/adminview.ui
-        forms/loginview.h
         forms/loginview.ui
-        forms/studentview.cpp
-        forms/studentview.h
         forms/studentview.ui
-
-
 )
 
-# Resources
+qt6_wrap_ui(UI_HEADERS ${UI_FILES})
+
 set(RESOURCES
         resources/FirstC++APP.qrc
 )
 
-# Create the executable
-add_executable(FirstC__APP ${SOURCES} ${FORMS} ${RESOURCES} ${INCLUDES})
+add_executable(FirstC__APP ${SOURCES} ${UI_HEADERS} ${RESOURCES})
 
-# Link the Qt6 libraries
-target_link_libraries(FirstC__APP Qt::Widgets Qt::Core Qt::Gui Qt::Sql Qt::Network)
-
+target_link_libraries(FirstC__APP Qt6::Widgets Qt6::Core Qt6::Gui Qt6::Sql Qt6::Network)
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     set(DEBUG_SUFFIX)
@@ -112,4 +93,3 @@ if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()
-

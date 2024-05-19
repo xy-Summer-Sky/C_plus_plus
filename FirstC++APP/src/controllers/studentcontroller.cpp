@@ -3,7 +3,7 @@
 //
 // studentcontroller.cpp
 #include "studentcontroller.h"
-#include "studentview.h"
+#include "ui_studentview.h"
 #include "student.h"
 
 StudentController::StudentController(StudentView *view) : view(view) {

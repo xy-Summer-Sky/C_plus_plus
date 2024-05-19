@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen",
-	"CMAKE_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio",
-	"CMAKE_CURRENT_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio",
+	"BUILD_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeLists_autogen",
+	"CMAKE_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release",
 	"CMAKE_CURRENT_SOURCE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP",
 	"CMAKE_EXECUTABLE" : "F:/Jetbrain/CLion/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/CMakeLists.txt",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeSystem.cmake",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/3.28.1/CMakeSystem.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeCCompiler.cmake",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/3.28.1/CMakeCCompiler.cmake",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
@@ -19,21 +19,23 @@
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/3.28.1/CMakeRCCompiler.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/3.28.1/CMakeRCCompiler.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake",
-		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
 		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
@@ -277,27 +279,13 @@
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/resources/FirstC++APP.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP",
-	"DEP_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "FirstC__APP_autogen/timestamp",
+	"DEP_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeLists_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "CMakeLists_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/include",
-	"MOC_COMPILATION_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/FirstC__APP_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"MINGW_HAS_SECURE_API=1",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NETWORK_LIB",
-		"QT_SQL_LIB",
-		"QT_WIDGETS_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN64",
-		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
-		"_UNICODE",
-		"_WIN64"
-	],
+	"INCLUDE_DIR" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeLists_autogen/include",
+	"MOC_COMPILATION_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeLists_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -312,13 +300,13 @@
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/models",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/views",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/include/controllers",
-		"F:/Qt/6.7.0/mingw_64/include/QtWidgets",
-		"F:/Qt/6.7.0/mingw_64/include",
-		"F:/Qt/6.7.0/mingw_64/include/QtCore",
-		"F:/Qt/6.7.0/mingw_64/mkspecs/win32-g++",
-		"F:/Qt/6.7.0/mingw_64/include/QtGui",
-		"F:/Qt/6.7.0/mingw_64/include/QtSql",
-		"F:/Qt/6.7.0/mingw_64/include/QtNetwork"
+		"F:/Jetbrain/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"F:/Jetbrain/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"F:/Jetbrain/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"F:/Jetbrain/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"F:/Jetbrain/CLion/bin/mingw/include",
+		"F:/Jetbrain/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"F:/Jetbrain/CLion/bin/mingw/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -331,84 +319,43 @@
 	],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
-	"MOC_PREDEFS_CMD" : [],
-	"MOC_PREDEFS_FILE" : "",
+	"MOC_PREDEFS_CMD" : 
+	[
+		"F:/Jetbrain/CLion/bin/mingw/bin/g++.exe",
+		"-std=gnu++20",
+		"-dM",
+		"-E",
+		"-c",
+		"F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeLists_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_adminview.h",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_loginview.h",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_studentview.h"
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/3YJK5W5UP7/qrc_FirstC++APP.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/mocs_compilation.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_adminview.h",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_loginview.h",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_studentview.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/CMakeLists_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "F:/Qt/6.7.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "F:/Qt/6.7.0/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/CMakeFiles/FirstC__APP_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : 
-	[
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/admincontroller.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/controllers/studentcontroller.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/dbmanager.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/database/querymodel.cpp",
-			"MU",
-			null
-		],
-		[ "F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/main.cpp", "MU", null ],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/course.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/enrollment.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/models/student.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/adminview.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/loginview.cpp",
-			"MU",
-			null
-		],
-		[
-			"F:/CODE/GIThub/C_plus_plus/FirstC++APP/src/views/studentview.cpp",
-			"MU",
-			null
-		]
-	],
+	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/CMakeLists_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_adminview.h",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_loginview.h",
-		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-debug-visual-studio/ui_studentview.h",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/3YJK5W5UP7/qrc_FirstC++APP.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/FirstC__APP_autogen/mocs_compilation.cpp",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_adminview.h",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_loginview.h",
+		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/ui_studentview.h",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/adminview.ui",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/loginview.ui",
 		"F:/CODE/GIThub/C_plus_plus/FirstC++APP/forms/studentview.ui"

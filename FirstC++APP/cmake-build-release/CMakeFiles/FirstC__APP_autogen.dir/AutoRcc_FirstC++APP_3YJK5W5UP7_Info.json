@@ -17,7 +17,7 @@
 	"OPTIONS" : [ "-name", "FirstC++APP" ],
 	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
 	"OUTPUT_NAME" : "qrc_FirstC++APP.cpp",
-	"RCC_EXECUTABLE" : "F:/qt2/6.6.0/msvc2019_64/./bin/rcc.exe",
+	"RCC_EXECUTABLE" : "F:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
 	"SETTINGS_FILE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/cmake-build-release/CMakeFiles/FirstC__APP_autogen.dir/AutoRcc_FirstC++APP_3YJK5W5UP7_Used.txt",
 	"SOURCE" : "F:/CODE/GIThub/C_plus_plus/FirstC++APP/resources/FirstC++APP.qrc",
