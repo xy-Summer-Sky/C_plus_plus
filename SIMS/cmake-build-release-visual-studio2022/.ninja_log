@@ -1,0 +1,13 @@
+# ninja log v6
+26	959	7387368236059643	SIMS_autogen/timestamp	8a6d3094f9dd9e7
+26	959	7387368236059643	SIMS_autogen/mocs_compilation.cpp	8a6d3094f9dd9e7
+26	959	7387368236059643	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autogen/timestamp	8a6d3094f9dd9e7
+1172	1360	7387367850510534	CMakeFiles/SIMS.dir/src/controller/admincontroller.cpp.obj	e657956cef39ee63
+26	959	7387368236059643	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autogen/mocs_compilation.cpp	8a6d3094f9dd9e7
+1194	2235	7387367850729854	CMakeFiles/SIMS.dir/src/model/course.cpp.obj	fd87c43155368b58
+986	1651	7387368238169238	CMakeFiles/SIMS.dir/src/model/student.cpp.obj	bfe6d6ac1ef370c
+1204	2328	7387367850824335	CMakeFiles/SIMS.dir/src/model/StudentCourses.cpp.obj	cdef78e85472ad11
+1215	3269	7387367850944346	CMakeFiles/SIMS.dir/src/controller/logincontroller.cpp.obj	198ddcaeb28a22da
+1150	3409	7387367850289465	CMakeFiles/SIMS.dir/src/database/dbmanager.cpp.obj	422b51a8a1bd1405
+977	2668	7387368238089284	CMakeFiles/SIMS.dir/src/database/querymodel.cpp.obj	21c5cc5946976caf
+1259	5038	7387367851384447	CMakeFiles/SIMS.dir/src/form/adminform.cpp.obj	dbce060105d54d0e

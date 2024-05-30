@@ -1,0 +1,25 @@
+# ninja log v6
+28	1074	7387368614647400	SIMS_autogen/timestamp	e8590706557f38af
+28	1074	7387368614647400	SIMS_autogen/mocs_compilation.cpp	e8590706557f38af
+28	1074	7387368614647400	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/SIMS_autogen/timestamp	e8590706557f38af
+28	1074	7387368614647400	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/SIMS_autogen/mocs_compilation.cpp	e8590706557f38af
+1115	1348	7387368617015829	CMakeFiles/SIMS.dir/src/controller/admincontroller.cpp.obj	80502ebbd53f2022
+1126	1972	7387368617115836	CMakeFiles/SIMS.dir/src/model/student.cpp.obj	de77d3d513b9dc88
+1137	1978	7387368617225926	CMakeFiles/SIMS.dir/src/model/course.cpp.obj	3fee9203681364b
+1148	2070	7387368617341126	CMakeFiles/SIMS.dir/src/model/StudentCourses.cpp.obj	da238a7136a81492
+1160	2855	7387368617462306	CMakeFiles/SIMS.dir/src/controller/logincontroller.cpp.obj	14b898dbff8415b4
+1094	2883	7387368616795827	CMakeFiles/SIMS.dir/src/database/dbmanager.cpp.obj	133060376199d716
+1105	3092	7387368616905856	CMakeFiles/SIMS.dir/src/database/querymodel.cpp.obj	cfaefaa20a094106
+1206	4310	7387368617910314	CMakeFiles/SIMS.dir/src/form/adminform.cpp.obj	5c773b539f9ce56d
+22	730	7387369136470204	SIMS_autogen/timestamp	e8590706557f38af
+22	730	7387369136470204	SIMS_autogen/mocs_compilation.cpp	e8590706557f38af
+22	730	7387369136470204	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/SIMS_autogen/timestamp	e8590706557f38af
+22	730	7387369136470204	F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/SIMS_autogen/mocs_compilation.cpp	e8590706557f38af
+753	1387	7387369137930745	CMakeFiles/SIMS.dir/src/model/student.cpp.obj	de77d3d513b9dc88
+745	2154	7387369137855601	CMakeFiles/SIMS.dir/src/database/querymodel.cpp.obj	cfaefaa20a094106
+761	3592	7387369138000740	CMakeFiles/SIMS.dir/src/controller/studentViewControl.cpp.obj	19a0de91385ebd6c
+737	3613	7387369137765600	CMakeFiles/SIMS.dir/main.cpp.obj	9179a5423afb0533
+730	3678	7387369137695549	CMakeFiles/SIMS.dir/SIMS_autogen/mocs_compilation.cpp.obj	18a1f58972593a98
+769	3711	7387369138090760	CMakeFiles/SIMS.dir/src/form/studentform.cpp.obj	3579ed5fbaaf0ad1
+777	3773	7387369138160744	CMakeFiles/SIMS.dir/src/form/loginform.cpp.obj	648c9bb5a39afab
+3773	4596	7387369168126853	SIMS.exe	fa949fb4a94318f1

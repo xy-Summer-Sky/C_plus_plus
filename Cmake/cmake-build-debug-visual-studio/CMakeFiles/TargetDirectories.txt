@@ -1,0 +1,3 @@
+F:/CODE/GIThub/C_plus_plus/Cmake/cmake-build-debug-visual-studio/CMakeFiles/Cmake.dir
+F:/CODE/GIThub/C_plus_plus/Cmake/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+F:/CODE/GIThub/C_plus_plus/Cmake/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

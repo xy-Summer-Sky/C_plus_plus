@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <author/>
+    <comment/>
+    <exportmacro/>
+    <class>SystemUi::AdminForm</class>
+    <widget class="QWidget" name="SystemUi::AdminForm">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QTabWidget" name="tabWidget">
+                    <property name="currentIndex">
+                        <number>0</number>
+                    </property>
+                    <widget class="QWidget" name="tabAddStudent">
+                        <attribute name="title">
+                            <string>Add Student</string>
+                        </attribute>
+                        <layout class="QFormLayout" name="formLayoutAdd">
+                            <item row="0" column="0">
+                                <widget class="QLabel" name="labelName">
+                                    <property name="text">
+                                        <string>Student Name:</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="0" column="1">
+                                <widget class="QLineEdit" name="lineEditName"/>
+                            </item>
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="labelID">
+                                    <property name="text">
+                                        <string>Student ID:</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="1">
+                                <widget class="QLineEdit" name="lineEditID"/>
+                            </item>
+                            <item row="2" column="0" colspan="2">
+                                <widget class="QPushButton" name="buttonAdd">
+                                    <property name="text">
+                                        <string>Add Student</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                    <widget class="QWidget" name="tabEditStudent">
+                        <attribute name="title">
+                            <string>Edit Student</string>
+                        </attribute>
+                        <layout class="QVBoxLayout" name="verticalLayoutEdit">
+                            <item>
+                                <widget class="QLineEdit" name="lineEditSearch">
+                                    <property name="placeholderText">
+                                        <string>Search by ID or Name</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="buttonSearch">
+                                    <property name="text">
+                                        <string>Search</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                    <widget class="QWidget" name="tabGenerateReports">
+                        <attribute name="title">
+                            <string>Generate Reports</string>
+                        </attribute>
+                        <layout class="QVBoxLayout" name="verticalLayoutReports">
+                            <item>
+                                <widget class="QPushButton" name="buttonReport">
+                                    <property name="text">
+                                        <string>Generate Report</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+</ui>

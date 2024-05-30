@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/icons">
-        <file>icons/分享.png</file>
-        <file>icons/开通服务.png</file>
-        <file>icons/消息-置灰.png</file>
-    </qresource>
-</RCC>
