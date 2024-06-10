@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="images">
         <file alias="loginicon">icons/loginicon.png</file>
-
     </qresource>
 
 </RCC>

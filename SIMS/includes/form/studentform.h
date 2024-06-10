@@ -9,12 +9,15 @@
 #include <QWidget>
 #include <QTableWidget>
 #include <QLineEdit>
-#include "studentViewControl.h"
+#include "studentViewController.h"
 #include "student.h"
 #include "course.h"
+#include "logincontroller.h"
 #include<vector>
+
 namespace Controller {
-   class studentViewControl;
+    class studentViewController;
+    class LoginController;
 }
 namespace SystemUi {
     QT_BEGIN_NAMESPACE
@@ -29,16 +32,22 @@ namespace SystemUi {
 
         ~StudentForm() override;
 
-        void updateStudentInfo(const std::string& name, const std::string& id, const std::string& email, const std::string& phone_number);
+        void displayStudentInfo(const std::string &studentId) ;
 
 
     private:
         Ui::StudentForm *ui;
-        Controller::studentViewControl * controller;
-        Model::StudentDTO * student;
-        std::vector<Model::Course> * course;
+        Controller::studentViewController *controller;
+        Model::StudentDTO *student{};
+        std::vector<Model::Course> *course{};
+        Controller::LoginController * loginController;
 
-
+    public
+        slots:
+        void onUserValidated(const std::string &userId);
+        // Display error/success message
+        void displayError(const QString& errorMessage);
+        void displaySuccessMessage(const QString& successMessage);
     };
 } // SystemUi
 

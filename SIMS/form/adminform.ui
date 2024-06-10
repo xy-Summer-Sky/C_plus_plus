@@ -1,95 +1,514 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <author/>
-    <comment/>
-    <exportmacro/>
-    <class>SystemUi::AdminForm</class>
-    <widget class="QWidget" name="SystemUi::AdminForm">
-        <property name="geometry">
-            <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>800</width>
-                <height>600</height>
-            </rect>
-        </property>
-        <layout class="QVBoxLayout" name="verticalLayout">
-            <item>
-                <widget class="QTabWidget" name="tabWidget">
-                    <property name="currentIndex">
-                        <number>0</number>
-                    </property>
-                    <widget class="QWidget" name="tabAddStudent">
-                        <attribute name="title">
-                            <string>Add Student</string>
-                        </attribute>
-                        <layout class="QFormLayout" name="formLayoutAdd">
-                            <item row="0" column="0">
-                                <widget class="QLabel" name="labelName">
-                                    <property name="text">
-                                        <string>Student Name:</string>
-                                    </property>
-                                </widget>
-                            </item>
-                            <item row="0" column="1">
-                                <widget class="QLineEdit" name="lineEditName"/>
-                            </item>
-                            <item row="1" column="0">
-                                <widget class="QLabel" name="labelID">
-                                    <property name="text">
-                                        <string>Student ID:</string>
-                                    </property>
-                                </widget>
-                            </item>
-                            <item row="1" column="1">
-                                <widget class="QLineEdit" name="lineEditID"/>
-                            </item>
-                            <item row="2" column="0" colspan="2">
-                                <widget class="QPushButton" name="buttonAdd">
-                                    <property name="text">
-                                        <string>Add Student</string>
-                                    </property>
-                                </widget>
-                            </item>
-                        </layout>
-                    </widget>
-                    <widget class="QWidget" name="tabEditStudent">
-                        <attribute name="title">
-                            <string>Edit Student</string>
-                        </attribute>
-                        <layout class="QVBoxLayout" name="verticalLayoutEdit">
-                            <item>
-                                <widget class="QLineEdit" name="lineEditSearch">
-                                    <property name="placeholderText">
-                                        <string>Search by ID or Name</string>
-                                    </property>
-                                </widget>
-                            </item>
-                            <item>
-                                <widget class="QPushButton" name="buttonSearch">
-                                    <property name="text">
-                                        <string>Search</string>
-                                    </property>
-                                </widget>
-                            </item>
-                        </layout>
-                    </widget>
-                    <widget class="QWidget" name="tabGenerateReports">
-                        <attribute name="title">
-                            <string>Generate Reports</string>
-                        </attribute>
-                        <layout class="QVBoxLayout" name="verticalLayoutReports">
-                            <item>
-                                <widget class="QPushButton" name="buttonReport">
-                                    <property name="text">
-                                        <string>Generate Report</string>
-                                    </property>
-                                </widget>
-                            </item>
-                        </layout>
-                    </widget>
-                </widget>
-            </item>
+ <class>SystemUi::AdminForm</class>
+ <widget class="QWidget" name="SystemUi::AdminForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>904</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <property name="tabBarAutoHide">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="tabStudent">
+      <attribute name="title">
+       <string>Students</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayoutStudent">
+       <item>
+        <layout class="QFormLayout" name="formLayoutStudent">
+         <item row="0" column="0">
+          <widget class="QLabel" name="labelName">
+           <property name="text">
+            <string>Student Name:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEditName"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="labelID">
+           <property name="text">
+            <string>Student ID:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEditID"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="labelEmail">
+           <property name="text">
+            <string>Email:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEditEmail"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="labelPhone">
+           <property name="text">
+            <string>Phone Number:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEditPhone"/>
+         </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonSaveStudent">
+         <property name="text">
+          <string>Save Student</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="QueryStudent">
+         <property name="text">
+          <string>Query Student</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="UpdateStudent">
+         <property name="text">
+          <string>Update Student</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteStudent">
+         <property name="text">
+          <string>Delete Student</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutCourses">
+         <item>
+          <widget class="QTableView" name="tableViewCourses">
+           <property name="toolTip">
+            <string>Student's Courses</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutCourseButtons">
+           <item>
+            <widget class="QPushButton" name="buttonAddCourse">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Add Course</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="addCourseId">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="buttonRemoveCourse">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Remove Course</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="deleteCOURSEid">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="ScoreButton">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="layoutDirection">
+              <enum>Qt::LayoutDirection::LeftToRight</enum>
+             </property>
+             <property name="text">
+              <string>Score</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QFormLayout" name="ScoreFormLayout">
+             <item row="0" column="0">
+              <widget class="QLabel" name="courseIDLabelScore">
+               <property name="text">
+                <string>courseID</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="courseIDLineEditScore">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="studentIDLabelScore">
+               <property name="text">
+                <string>studentID</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="studentIDLineEditScore">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="scoreLabel">
+               <property name="text">
+                <string>Score</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="scoreLineEdit">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabCourseManagement">
+      <attribute name="title">
+       <string>Course Management</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayoutCourseManagement">
+       <item>
+        <layout class="QFormLayout" name="formLayoutCourseDetails">
+         <item row="0" column="0">
+          <widget class="QLabel" name="courseIDLabel">
+           <property name="text">
+            <string>Course ID:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="courseIDLineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="courseNameLabel">
+           <property name="text">
+            <string>Course Name:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="courseNameLineEdit"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="teacherIDLabel">
+           <property name="text">
+            <string>Teacher ID:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="teacherIDLineEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutCourseActions">
+         <item>
+          <widget class="QPushButton" name="addCourseButton">
+           <property name="text">
+            <string>Add Course</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="updateCourseButton">
+           <property name="text">
+            <string>Update Course</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="deleteCourseButton">
+           <property name="text">
+            <string>Delete Course</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="viewCoursesButton">
+           <property name="text">
+            <string>View Courses</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableView" name="courseTableView">
+         <property name="toolTip">
+          <string>Full List of Courses</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabAccountsManagement">
+      <attribute name="title">
+       <string>AccountsManagement</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayoutReports">
+       <item>
+        <layout class="QFormLayout" name="formLayoutSelection">
+         <item row="2" column="0">
+          <widget class="QLabel" name="labelUserType">
+           <property name="text">
+            <string>UserType</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="UserType">
+           <property name="toolTip">
+            <string>Choose a student ID or course ID to generate a report</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>admin</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>student</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="useridLabel">
+           <property name="text">
+            <string>UserID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="useridLineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="passwordLabel_2">
+           <property name="text">
+            <string>Password</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="passwordLineEditAccountManagement"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonUpdateAccount">
+         <property name="text">
+          <string>UpdateAccount</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonDeleteAccount">
+         <property name="text">
+          <string>DeleteButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonAddAccount">
+         <property name="text">
+          <string>AddAccount</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonQueryAccount">
+         <property name="text">
+          <string>QueryAccount</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonListAllAccount">
+         <property name="text">
+          <string>ListAllAccount</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableView" name="AccountList"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabTeacher">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
+      </property>
+      <attribute name="title">
+       <string>Teachers</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="teacherNameLabel">
+           <property name="text">
+            <string>TeacherName</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="teacherNameLineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="teacherIdLabel">
+           <property name="text">
+            <string>TeacherId</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="teacherIdLineEdit"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="teacherEmailLabel">
+           <property name="text">
+            <string>TeacherEmail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="teacherEmailLineEdit"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="teacherPhoneNumberLabel">
+           <property name="text">
+            <string>TeacherPhoneNumber</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="teacherPhoneNumberLineEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="ButtonAddTeacher">
+           <property name="text">
+            <string>AddTeacher</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonDeleteTeacher">
+           <property name="text">
+            <string>DeleteTeacher</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonUpdateTeacher">
+           <property name="text">
+            <string>UpdateTeacher</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonQueryTeacher">
+           <property name="text">
+            <string>QueryTeacher</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ListAllTeachers">
+         <property name="text">
+          <string>AllTeachers</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableView" name="TeachersTableView"/>
+       </item>
+      </layout>
+     </widget>
     </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
 </ui>

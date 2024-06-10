@@ -3,7 +3,8 @@
 //
 #include"student.h"
 
-Model::StudentDTO::StudentDTO(const std::string &name, const std::string &id, const std::string &email, const std::string &phoneNumber) {
+Model::StudentDTO::StudentDTO(const std::string &name, const std::string &id, const std::string &email,
+                              const std::string &phoneNumber) {
     name_ = name;
     id_ = id;
     email_ = email;
@@ -26,7 +27,7 @@ void Model::StudentDTO::setId(const std::string &id) {
     id_ = id;
 }
 
-const std::string Model::StudentDTO::getEmail() const {
+std::string Model::StudentDTO::getEmail() const {
     return email_;
 }
 
@@ -34,12 +35,14 @@ void Model::StudentDTO::setEmail(const std::string &email) {
     email_ = email;
 }
 
-const std::string Model::StudentDTO::getPhoneNumber() const {
+std::string Model::StudentDTO::getPhoneNumber() const {
     return phoneNumber_;
 }
 
 void Model::StudentDTO::setPhoneNumber(const std::string &phoneNumber) {
     phoneNumber_ = phoneNumber;
 }
+
+Model::StudentDTO::StudentDTO() = default;
 
 // Created by Lenovo on 24-5-21.

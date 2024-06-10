@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="fileTypesIncluded" value="c;cpp;h" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/cmake-build-debug-visualstudio2019" />
+        <option value="$PROJECT_DIR$/cmake-build-release-visual-studio2022" />
+        <option value="$PROJECT_DIR$/cmake-build-release-visualstudio2019" />
+        <option value="$PROJECT_DIR$/.idea" />
+        <option value="$PROJECT_DIR$/build" />
+        <option value="$PROJECT_DIR$/.idea" />
+      </list>
+    </option>
+  </component>
+</project>

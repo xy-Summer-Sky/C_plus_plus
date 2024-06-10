@@ -9,6 +9,8 @@
 namespace Model {
     class StudentDTO {
     public:
+        StudentDTO();
+
         StudentDTO(const std::string &name, const std::string &id, const std::string &email,
                    const std::string &phoneNumber);
 
@@ -22,11 +24,11 @@ namespace Model {
 
         void setId(const std::string &id);
 
-        const std::string getEmail() const;
+        std::string getEmail() const;
 
         void setEmail(const std::string &email);
 
-        const std::string getPhoneNumber() const;
+        std::string getPhoneNumber() const;
 
         void setPhoneNumber(const std::string &phoneNumber);
 

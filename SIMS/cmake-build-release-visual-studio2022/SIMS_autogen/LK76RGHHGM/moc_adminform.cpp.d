@@ -1,8 +1,18 @@
 F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autogen/LK76RGHHGM/moc_adminform.cpp: F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/adminform.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/admincontroller.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/database/dbmanager.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentScore.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/course.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/student.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/teacherinformation.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/useraccount.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QObject \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QString \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20functional.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20memory.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20type_traits.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q23utility.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qabstractitemmodel.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qalgorithms.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qanystringview.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qarraydata.h \
@@ -49,6 +59,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qlatin1stringview.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qline.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qlist.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qlocale.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qlogging.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qmalloc.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qmap.h \
@@ -69,6 +80,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qprocessordetection.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qrect.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qrefcount.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qregularexpression.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qscopedpointer.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qscopeguard.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qset.h \
@@ -116,6 +128,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qversiontagging.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qxptype_traits.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qyieldcpu.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/QStandardItemModel \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qaction.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbitmap.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbrush.h \
@@ -135,15 +148,41 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qregion.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgb.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgba64.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qstandarditemmodel.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtgui-config.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtguiexports.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtguiglobal.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtransform.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qvalidator.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QComboBox \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QPushButton \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QWidget \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractbutton.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractitemdelegate.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractslider.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractspinbox.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qcombobox.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qframe.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qpushbutton.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qrubberband.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qsizepolicy.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qslider.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qstyle.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qstyleoption.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qtabbar.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qtabwidget.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
-  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qwidget.h
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qwidget.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/build_config.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/callback.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/connection.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/driver.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/exception.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/sqlstring.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/variant.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/cppconn/warning.h \
+  F:/MySQL/MySQLConnectorC++8.4/include/jdbc/mysql_driver.h

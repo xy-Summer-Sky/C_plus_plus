@@ -9,28 +9,38 @@ SIMS_autogen/timestamp: \
   F:/CODE/GIThub/C_plus_plus/SIMS/form/studentform.ui \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/admincontroller.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/logincontroller.h \
-  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewControl.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewController.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/database/dbmanager.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/database/querymodel.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/adminform.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/loginform.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/studentform.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentCourses.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentScore.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/course.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/student.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/teacherinformation.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/useraccount.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/main.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/AccountManagementAndTeacherManagement.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/admincontroller.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/logincontroller.cpp \
-  F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/studentViewControl.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/studentViewController.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/database/dbmanager.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/database/dbmanagerAccountAndTeacher.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/database/querymodel.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/form/adminform.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/form/adminformAccountAndTeacherManagement.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/form/loginform.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/form/studentform.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/model/StudentCourses.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/model/StudentScore.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/model/course.cpp \
   F:/CODE/GIThub/C_plus_plus/SIMS/src/model/student.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/model/teacherinformation.cpp \
+  F:/CODE/GIThub/C_plus_plus/SIMS/src/model/useraccount.cpp \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QObject \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QString \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20functional.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20memory.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -154,6 +164,7 @@ SIMS_autogen/timestamp: \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qversiontagging.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qxptype_traits.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qyieldcpu.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/QStandardItemModel \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qaction.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbitmap.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbrush.h \
@@ -175,6 +186,7 @@ SIMS_autogen/timestamp: \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qregion.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgb.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgba64.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qstandarditemmodel.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextcursor.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextdocument.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextformat.h \
@@ -186,6 +198,7 @@ SIMS_autogen/timestamp: \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qvalidator.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QComboBox \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QLabel \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QLineEdit \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QMessageBox \
@@ -199,6 +212,7 @@ SIMS_autogen/timestamp: \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractslider.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractspinbox.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qcombobox.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qdialog.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qdialogbuttonbox.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qframe.h \
@@ -373,102 +387,26 @@ SIMS_autogen/timestamp: \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/bin/cmake.exe \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake \
@@ -477,8 +415,6 @@ SIMS_autogen/timestamp: \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
-  F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake \
   F:/Jetbrain/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake \

@@ -1,8 +1,8 @@
 #include"StudentCourses.h"
+
 Model::StudentCourses::StudentCourses(const std::string &studentId) {
     student_id_ = studentId;
 }
-
 
 
 const std::string &Model::StudentCourses::getStudentId() const {
@@ -14,6 +14,7 @@ void Model::StudentCourses::setStudentId(const std::string &studentId) {
 }
 
 const std::vector<std::string> &Model::StudentCourses::getCourseIDs() {
+
     return courses;
 }
 

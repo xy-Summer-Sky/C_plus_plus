@@ -48,7 +48,13 @@ set(SRC
         src/model/course.cpp
         src/model/StudentCourses.cpp
         src/controller/logincontroller.cpp
-        src/controller/studentViewControl.cpp
+        src/controller/studentViewController.cpp
+        src/model/teacherinformation.cpp
+        src/database/dbmanager.cpp
+        src/form/adminformAccountAndTeacherManagement.cpp
+        src/controller/AccountManagementAndTeacherManagement.cpp
+        src/database/dbmanagerAccountAndTeacher.cpp
+        src/model/useraccount.cpp
 )
 set(FORM
         src/form/studentform.cpp
@@ -69,7 +75,12 @@ set(HEADER
         includes/controller/admincontroller.h
         includes/model/StudentCourses.h
         includes/controller/logincontroller.h
-        includes/controller/studentViewControl.h
+        includes/controller/studentViewController.h
+        includes/model/teacherinformation.h
+        includes/model/teacherinformation.h
+        includes/model/useraccount.h
+        src/model/StudentScore.cpp
+        includes/model/StudentScore.h
 
 )
 
@@ -90,11 +101,9 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 target_link_libraries(SIMS
-
         Qt::Core
         Qt::Gui
         Qt::Widgets
-
 
 )
 

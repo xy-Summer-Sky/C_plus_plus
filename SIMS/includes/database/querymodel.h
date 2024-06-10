@@ -4,6 +4,7 @@
 
 #ifndef SIMS_QUERYMODEL_H
 #define SIMS_QUERYMODEL_H
+
 #include"student.h"
 #include"course.h"
 #include"StudentCourses.h"
@@ -13,36 +14,39 @@
 #include "mysql_driver.h"
 #include <jdbc/cppconn/exception.h>
 #include"cppconn/prepared_statement.h"
+#include "teacherinformation.h"
+#include "StudentScore.h"
 
 
 //查询数据库获取相关信息
-namespace MYDB
-{
-class QueryModel {
+namespace MYDB {
+    class QueryModel {
     public:
         QueryModel();
+
         ~QueryModel();
 
-        Model::StudentDTO getStudent(const std::string& studentId);
-        Model::Course getCourse(const std::string& courseId);
-        Model::StudentCourses getStudentCourse(const std::string& studentId);
-        std::vector<Model::StudentDTO> getAllStudents();
-        std::vector<Model::Course> getAllCourses();
-        std::vector<Model::StudentCourses> getAllStudentCourses();
+        static Model::StudentDTO getStudent(const std::string &studentId);
+
+        static Model::Course getCourse(const std::string &courseId);
+
+        static std::vector<Model::Course> getStudentCourses(const std::string &basicString);
+
+        static Model::TeacherInformation getTeacherInfo(const std::string &basicString);
+
+        static Model::StudentScore getStudentScore(const std::string &basicString, const std::string &basicString1);
+
     private:
+        static std::vector<Model::StudentDTO> students_;
 
+    private:
+        static sql::Driver *driver;
+        static sql::Connection *con;
 
-        std::vector<Model::StudentDTO> students_;
-        std::vector<Model::Course> courses_;
-        std::vector<Model::StudentCourses> studentCourses_;
+    private:
+        static bool openConnection();
 
-private:
-    sql::Driver* driver;
-    sql::Connection * con;
-
-private:
-    bool openConnection();
-    void closeConnection();
+        static void closeConnection();
 
 
     };

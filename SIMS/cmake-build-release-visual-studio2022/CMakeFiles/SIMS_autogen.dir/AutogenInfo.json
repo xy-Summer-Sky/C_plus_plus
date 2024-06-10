@@ -250,9 +250,9 @@
 			null
 		],
 		[
-			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewControl.h",
+			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewController.h",
 			"MU",
-			"POKG7KUPPR/moc_studentViewControl.cpp",
+			"POKG7KUPPR/moc_studentViewController.cpp",
 			null
 		],
 		[
@@ -292,6 +292,12 @@
 			null
 		],
 		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentScore.h",
+			"MU",
+			"WQDUHGGYQ5/moc_StudentScore.cpp",
+			null
+		],
+		[
 			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/course.h",
 			"MU",
 			"WQDUHGGYQ5/moc_course.cpp",
@@ -301,6 +307,18 @@
 			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/student.h",
 			"MU",
 			"WQDUHGGYQ5/moc_student.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/teacherinformation.h",
+			"MU",
+			"WQDUHGGYQ5/moc_teacherinformation.cpp",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/useraccount.h",
+			"MU",
+			"WQDUHGGYQ5/moc_useraccount.cpp",
 			null
 		]
 	],
@@ -367,6 +385,11 @@
 	[
 		[ "F:/CODE/GIThub/C_plus_plus/SIMS/main.cpp", "MU", null ],
 		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/AccountManagementAndTeacherManagement.cpp",
+			"MU",
+			null
+		],
+		[
 			"F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/admincontroller.cpp",
 			"MU",
 			null
@@ -377,7 +400,7 @@
 			null
 		],
 		[
-			"F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/studentViewControl.cpp",
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/controller/studentViewController.cpp",
 			"MU",
 			null
 		],
@@ -387,11 +410,21 @@
 			null
 		],
 		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/database/dbmanagerAccountAndTeacher.cpp",
+			"MU",
+			null
+		],
+		[
 			"F:/CODE/GIThub/C_plus_plus/SIMS/src/database/querymodel.cpp",
 			"MU",
 			null
 		],
 		[ "F:/CODE/GIThub/C_plus_plus/SIMS/src/form/adminform.cpp", "MU", null ],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/form/adminformAccountAndTeacherManagement.cpp",
+			"MU",
+			null
+		],
 		[ "F:/CODE/GIThub/C_plus_plus/SIMS/src/form/loginform.cpp", "MU", null ],
 		[
 			"F:/CODE/GIThub/C_plus_plus/SIMS/src/form/studentform.cpp",
@@ -403,8 +436,23 @@
 			"MU",
 			null
 		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/model/StudentScore.cpp",
+			"MU",
+			null
+		],
 		[ "F:/CODE/GIThub/C_plus_plus/SIMS/src/model/course.cpp", "MU", null ],
-		[ "F:/CODE/GIThub/C_plus_plus/SIMS/src/model/student.cpp", "MU", null ]
+		[ "F:/CODE/GIThub/C_plus_plus/SIMS/src/model/student.cpp", "MU", null ],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/model/teacherinformation.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/CODE/GIThub/C_plus_plus/SIMS/src/model/useraccount.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [ "F:/CODE/GIThub/C_plus_plus/SIMS/form" ],

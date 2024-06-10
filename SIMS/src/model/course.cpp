@@ -2,6 +2,7 @@
 // Created by Lenovo on 24-5-21.
 //
 #include"course.h"
+
 Model::Course::Course(const std::string &name, const std::string &id, const std::string &teacherId) {
     name_ = name;
     id_ = id;
@@ -30,6 +31,10 @@ const std::string &Model::Course::getTeacherId() {
 
 void Model::Course::setTeacherId(const std::string &teacherId) {
     teacherId_ = teacherId;
+}
+
+Model::Course::Course() {
+
 }
 
 // Created by Lenovo on 24-5-21.

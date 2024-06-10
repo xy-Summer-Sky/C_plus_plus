@@ -8,18 +8,21 @@
 #include "ui_LoginForm.h"
 
 namespace SystemUi {
-    LoginForm::LoginForm(QWidget *parent) :QWidget(parent), ui(new Ui::LoginForm) {\
+    LoginForm::LoginForm(QWidget *parent) : QWidget(parent), ui(new Ui::LoginForm) {
+        \
         loginController = new Controller::LoginController();
         this->setWindowIcon(QIcon(":images/loginicon"));
         ui->setupUi(this);
         connect(ui->LoginButton, &QPushButton::clicked, this, &LoginForm::onLoginButtonClicked);
+
+
 
     }
 
     LoginForm::~LoginForm() {
         delete ui;
         delete ui;
-        if(loginController != nullptr)
+        if (loginController != nullptr)
             delete loginController;
     }
 
@@ -50,6 +53,10 @@ namespace SystemUi {
                 // 跳转到学生界面
                 auto *studentView = new StudentForm();
                 studentView->show();
+                // Connect the signal and slot with Qt::QueuedConnection
+                connect(loginController, &Controller::LoginController::userValidated, studentView, &SystemUi::StudentForm::onUserValidated, Qt::QueuedConnection);
+                // Emit the signal
+                emit loginController->userValidated(userID);
             } else if (userType == "admin") {
                 // 跳转到管理员界面
                 auto *adminView = new AdminForm();
@@ -70,6 +77,6 @@ namespace SystemUi {
         }
     }
 
-    } // SystemUi
+} // SystemUi
 
 

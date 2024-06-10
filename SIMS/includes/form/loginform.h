@@ -28,11 +28,12 @@ namespace SystemUi {
         explicit LoginForm(QWidget *parent = nullptr);
 
         ~LoginForm() override;
+
         void onLoginButtonClicked();
 
     private:
         Ui::LoginForm *ui;
-        Controller::LoginController * loginController;
+        Controller::LoginController *loginController;
     };
 } // SystemUi
 

@@ -1,0 +1,49 @@
+<widget class="QWidget" name="tabStudent">
+    <attribute name="title">
+        <string>Students</string>
+    </attribute>
+    <layout class="QVBoxLayout" name="verticalLayoutStudent">
+        <item>
+            <layout class="QFormLayout" name="formLayoutStudent">
+                <!-- Existing student info fields here -->
+            </layout>
+        </item>
+        <item>
+            <widget class="QPushButton" name="buttonSaveStudent">
+                <property name="text">
+                    <string>Save Student</string>
+                </property>
+            </widget>
+        </item>
+        <item>
+            <layout class="QHBoxLayout" name="horizontalLayoutCoursesEdit">
+                <item>
+                    <widget class="QLineEdit" name="lineEditCourse">
+                        <property name="placeholderText">
+                            <string>Enter Course ID or Name</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="buttonAddCourseToStudent">
+                        <property name="text">
+                            <string>Add Course</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="buttonRemoveCourseFromStudent">
+                        <property name="text">
+                            <string>Remove Course</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </item>
+        <item>
+            <layout class="QHBoxLayout" name="horizontalLayoutCourses">
+                <!-- Existing course list view setup here -->
+            </layout>
+        </item>
+    </layout>
+</widget>

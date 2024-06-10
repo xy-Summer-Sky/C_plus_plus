@@ -12,21 +12,19 @@ namespace Model {
 
     class StudentCourses {
     public:
-        explicit StudentCourses(const std::string& studentId);
+        explicit StudentCourses(const std::string &studentId);
 
-        ~StudentCourses()= default;
+        ~StudentCourses() = default;
 
         const std::string &getStudentId() const;
 
         void setStudentId(const std::string &studentId);
 
-        const std::vector<std::string>& getCourseIDs();
+        const std::vector<std::string> &getCourseIDs();
 
-        void addCourse(const std::string& courseId);
+        void addCourse(const std::string &courseId);
 
-        void removeCourse(const std::string& courseId);
-
-
+        void removeCourse(const std::string &courseId);
 
 
     private:
@@ -36,4 +34,4 @@ namespace Model {
 
 }
 
-#endif //SIMS_STUDENTCOURSES_H
+#endif

@@ -11,6 +11,8 @@ namespace Model {
 
     class Course {
     public:
+        Course();
+
         Course(const std::string &name, const std::string &id, const std::string &teacherId);
 
         const std::string &getName();

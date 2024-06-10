@@ -15,7 +15,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
-#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -25,7 +25,7 @@ class Ui_StudentForm
 {
 public:
     QVBoxLayout *verticalLayout;
-    QTableWidget *tableWidgetCourses;
+    QTableView *tableViewCourses;
     QFormLayout *formLayout;
     QLabel *labelName;
     QLineEdit *lineEditName;
@@ -40,17 +40,15 @@ public:
     {
         if (SystemUi__StudentForm->objectName().isEmpty())
             SystemUi__StudentForm->setObjectName("SystemUi__StudentForm");
-        SystemUi__StudentForm->resize(400, 300);
+        SystemUi__StudentForm->resize(560, 405);
         SystemUi__StudentForm->setContextMenuPolicy(Qt::ContextMenuPolicy::NoContextMenu);
         verticalLayout = new QVBoxLayout(SystemUi__StudentForm);
         verticalLayout->setObjectName("verticalLayout");
-        tableWidgetCourses = new QTableWidget(SystemUi__StudentForm);
-        tableWidgetCourses->setObjectName("tableWidgetCourses");
-        tableWidgetCourses->setStyleSheet(QString::fromUtf8("QTableWidget { color: black; }"));
-        tableWidgetCourses->setRowCount(4);
-        tableWidgetCourses->setColumnCount(4);
+        tableViewCourses = new QTableView(SystemUi__StudentForm);
+        tableViewCourses->setObjectName("tableViewCourses");
+        tableViewCourses->setStyleSheet(QString::fromUtf8("QTableWidget { color: black; }"));
 
-        verticalLayout->addWidget(tableWidgetCourses);
+        verticalLayout->addWidget(tableViewCourses);
 
         formLayout = new QFormLayout();
         formLayout->setObjectName("formLayout");
@@ -110,11 +108,6 @@ public:
     void retranslateUi(QWidget *SystemUi__StudentForm)
     {
         SystemUi__StudentForm->setWindowTitle(QCoreApplication::translate("SystemUi::StudentForm", "Student View", nullptr));
-        tableWidgetCourses->setHorizontalHeaderLabels(QStringList{
-            QCoreApplication::translate("SystemUi::StudentForm", "Course ID", nullptr),
-            QCoreApplication::translate("SystemUi::StudentForm", "Course Name", nullptr),
-            QCoreApplication::translate("SystemUi::StudentForm", "Instructor Name", nullptr),
-            QCoreApplication::translate("SystemUi::StudentForm", "Grade", nullptr)});
         labelName->setText(QCoreApplication::translate("SystemUi::StudentForm", "Name:", nullptr));
         labelID->setText(QCoreApplication::translate("SystemUi::StudentForm", "Student ID:", nullptr));
         labelEmail->setText(QCoreApplication::translate("SystemUi::StudentForm", "Email:", nullptr));

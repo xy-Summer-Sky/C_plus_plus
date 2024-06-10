@@ -1,14 +1,19 @@
 F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autogen/LK76RGHHGM/moc_loginform.cpp: F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/loginform.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/admincontroller.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/logincontroller.h \
-  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewControl.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/controller/studentViewController.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/database/dbmanager.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/database/querymodel.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/adminform.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/form/studentform.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentCourses.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/StudentScore.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/course.h \
   F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/student.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/teacherinformation.h \
+  F:/CODE/GIThub/C_plus_plus/SIMS/includes/model/useraccount.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QObject \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/QString \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20functional.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20memory.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -132,6 +137,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qversiontagging.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qxptype_traits.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtCore/qyieldcpu.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/QStandardItemModel \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qaction.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbitmap.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qbrush.h \
@@ -153,6 +159,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qregion.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgb.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qrgba64.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qstandarditemmodel.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextcursor.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextdocument.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qtextformat.h \
@@ -164,6 +171,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qvalidator.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QComboBox \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QLabel \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QLineEdit \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/QMessageBox \
@@ -177,6 +185,7 @@ F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visual-studio2022/SIMS_autog
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractslider.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qabstractspinbox.h \
+  F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qcombobox.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qdialog.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qdialogbuttonbox.h \
   F:/DevelopmentKitQT_MSVC/6.7.1/msvc2019_64/include/QtWidgets/qframe.h \
