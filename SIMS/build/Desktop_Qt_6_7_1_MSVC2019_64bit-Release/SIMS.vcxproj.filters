@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\database\dbmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\database\querymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\controller\admincontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\model\student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\model\course.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\model\StudentCourses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\controller\logincontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\controller\studentViewController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\model\teacherinformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\form\studentform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\form\loginform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\src\form\adminform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\database\dbmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\database\querymodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\model\student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\model\course.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\controller\admincontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\model\StudentCourses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\controller\logincontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\controller\studentViewController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\model\teacherinformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\form\studentform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\form\loginform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\includes\form\adminform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Debug\form\ui_studentform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Debug\form\ui_loginform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Debug\form\ui_adminform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Release\form\ui_studentform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Release\form\ui_loginform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_Release\form\ui_adminform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_MinSizeRel\form\ui_studentform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_MinSizeRel\form\ui_loginform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_MinSizeRel\form\ui_adminform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_RelWithDebInfo\form\ui_studentform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_RelWithDebInfo\form\ui_loginform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\include_RelWithDebInfo\form\ui_adminform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\CMakeFiles\271a441ea22f6a59811f8ef0aeacf672\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\resources\icons\loginicon.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\form\studentform.ui" />
+    <None Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\form\loginform.ui" />
+    <None Include="C:\ProgramData\QtCreator\Links\b6aabeb32d756aad0cfbfada6fa47b38\form\adminform.ui" />
+    <None Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\autouic_Debug.stamp" />
+    <None Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\autouic_Release.stamp" />
+    <None Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\ProgramData\QtCreator\Links\9952e2f8b6bcb6d55b52fbee700ca5c9\SIMS_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{418A0BF5-45AC-3471-8323-528D58E8C3DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{628B775C-8349-37E5-BB7E-64FF597E1754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2CFB06C5-EB64-34B4-B488-CFA5ACAC2D83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C9888E97-0A48-380F-97C4-D6F5BE849D7F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

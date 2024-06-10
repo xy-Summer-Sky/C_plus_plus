@@ -1,0 +1,5 @@
+F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/CMakeFiles/SIMS.dir
+F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/CMakeFiles/edit_cache.dir
+F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/CMakeFiles/rebuild_cache.dir
+F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/CMakeFiles/SIMS_autogen_timestamp_deps.dir
+F:/CODE/GIThub/C_plus_plus/SIMS/cmake-build-release-visualstudio2019/CMakeFiles/SIMS_autogen.dir
