@@ -16,8 +16,8 @@ void MYDB::DbManager::addAccount(Model::UserAccount account) {
         pstmt->setString(2, account.getPassword());
         pstmt->setString(3, account.getUserType());
         pstmt->execute();
-        delete pstmt;
-        closeConnection();
+
+
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -32,12 +32,29 @@ void MYDB::DbManager::deleteAccount(const std::string &username) {
         Model::UserAccount account = MYDB::DbManager::queryAccount(username);
         if(account.getUsername().empty())
             throw std::runtime_error("Account not found");
+        if(account.getUserType()=="student")
+        {
+            //检查学生是否存在
+            sql::PreparedStatement *checkpstmt;
+            checkpstmt = con->prepareStatement("SELECT * FROM studentinformation WHERE studentID = ?");
+            checkpstmt->setString(1, username);
+            sql::ResultSet *checkres = checkpstmt->executeQuery();
+            if(checkres->next())
+            {
+                //学生存在，则先删除学生信息
+                sql::PreparedStatement *deletepstmt;
+                deletepstmt = con->prepareStatement("DELETE FROM studentinformation WHERE studentID = ?");
+                deletepstmt->setString(1, username);
+                deletepstmt->execute();
+            }
+
+
+        }
         sql::PreparedStatement *pstmt;
         pstmt = con->prepareStatement("DELETE FROM useraccounts WHERE USERID = ?");
         pstmt->setString(1, username);
         pstmt->execute();
-        delete pstmt;
-        closeConnection();
+
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -49,6 +66,11 @@ void MYDB::DbManager::updateAccount(Model::UserAccount account) {
         throw std::runtime_error("Failed to connect to database");
     }
     try {
+        Model::UserAccount existingAccount = queryAccount(account.getUsername());
+        if (existingAccount.getUsername().empty()) {
+            throw std::runtime_error("Account not found");
+        }
+
         sql::PreparedStatement *pstmt;
         pstmt = con->prepareStatement("UPDATE useraccounts SET PASSWORD = ?, TYPE = ? WHERE USERID = ?");
         pstmt->setString(1, account.getPassword());
@@ -56,7 +78,7 @@ void MYDB::DbManager::updateAccount(Model::UserAccount account) {
         pstmt->setString(3, account.getUsername());
         pstmt->execute();
         delete pstmt;
-        closeConnection();
+
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -81,7 +103,7 @@ std::vector<Model::UserAccount> MYDB::DbManager::displayAllAccounts() {
         }
         delete res;
         delete stmt;
-        closeConnection();
+
         return accounts;
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
@@ -104,9 +126,12 @@ Model::UserAccount MYDB::DbManager::queryAccount(const std::string &username) {
             account.setPassword(res->getString("PASSWORD"));
             account.setUserType(res->getString("TYPE"));
         }
+        else{
+            throw std::runtime_error("Account not found");
+        }
         delete res;
         delete pstmt;
-        closeConnection();
+
         return account;
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
@@ -127,7 +152,7 @@ void MYDB::DbManager::addTeacherInformation(Model::TeacherInformation teacher) {
         pstmt->setString(4, teacher.getPhoneNumber());
         pstmt->execute();
         delete pstmt;
-        closeConnection();
+
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -136,6 +161,7 @@ void MYDB::DbManager::addTeacherInformation(Model::TeacherInformation teacher) {
 void MYDB::DbManager::deleteTeacherInformation(const std::string &teacherId) {
     if (!openConnection()) {
         throw std::runtime_error("Failed to connect to database");
+
     }
     try {
 
@@ -147,7 +173,6 @@ void MYDB::DbManager::deleteTeacherInformation(const std::string &teacherId) {
         pstmt->setString(1, teacherId);
         pstmt->execute();
         delete pstmt;
-        closeConnection();
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -171,10 +196,11 @@ Model::TeacherInformation MYDB::DbManager::getTeacherInformation(const std::stri
         }
         delete res;
         delete pstmt;
-        closeConnection();
+
         std::cout<<"teacher id: "<<teacher.getId()<<std::endl;
         if(teacher.getId().empty())
-            throw std::runtime_error("Teacher not found");
+            //详细解释报错信息
+            throw std::runtime_error("Teacher "+teacherId +" not found");
         return teacher;
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
@@ -186,6 +212,10 @@ void MYDB::DbManager::updateTeacherInformation(Model::TeacherInformation teacher
         throw std::runtime_error("Failed to connect to database");
     }
     try {
+        Model::TeacherInformation existingTeacher = getTeacherInformation(teacher.getId());
+        if (existingTeacher.getId().empty()) {
+            throw std::runtime_error("Teacher not found");
+        }
         sql::PreparedStatement *pstmt;
         pstmt = con->prepareStatement(
                 "UPDATE teacherinformation SET teacherName = ?, teacherEmail = ?, teacherPhonenumber = ? WHERE teacherId = ?");
@@ -195,7 +225,6 @@ void MYDB::DbManager::updateTeacherInformation(Model::TeacherInformation teacher
         pstmt->setString(4, teacher.getId());
         pstmt->execute();
         delete pstmt;
-        closeConnection();
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
@@ -220,7 +249,6 @@ std::vector<Model::TeacherInformation> MYDB::DbManager::displayAllTeachers() {
         }
         delete res;
         delete stmt;
-        closeConnection();
         return teachers;
     } catch (sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));

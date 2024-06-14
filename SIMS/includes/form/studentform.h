@@ -29,25 +29,22 @@ namespace SystemUi {
 
     public:
         explicit StudentForm(QWidget *parent = nullptr);
-
         ~StudentForm() override;
-
         void displayStudentInfo(const std::string &studentId) ;
 
 
     private:
         Ui::StudentForm *ui;
-        Controller::studentViewController *controller;
-        Model::StudentDTO *student{};
-        std::vector<Model::Course> *course{};
+        Controller::studentViewController *controller;//学生视图控制器
+        Model::StudentDTO *student{};//学生
+        std::vector<Model::Course> *course{};//课程
         Controller::LoginController * loginController;
 
     public
         slots:
-        void onUserValidated(const std::string &userId);
-        // Display error/success message
-        void displayError(const QString& errorMessage);
-        void displaySuccessMessage(const QString& successMessage);
+        void onUserValidated(const std::string &userId);//用户验证
+        void displayError(const QString& errorMessage);//显示错误
+        void displaySuccessMessage(const QString& successMessage);//显示成功信息
     };
 } // SystemUi
 

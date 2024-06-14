@@ -3,7 +3,8 @@
 #include"cppconn/prepared_statement.h"
 
 sql::Connection *MYDB::DbManager::con = nullptr;
-sql::Driver* MYDB::DbManager::driver = nullptr;
+sql::Driver *MYDB::DbManager::driver = nullptr;
+
 MYDB::DbManager::DbManager() {
     driver = sql::mysql::get_driver_instance();
     try {
@@ -84,9 +85,8 @@ MYDB::DbManager::validateUser(const std::string &userID, const std::string &pass
 
 // Open Connection
 bool MYDB::DbManager::openConnection() {
-    if(con != nullptr &&!con->isClosed())
-    {
-        std::cout<<"Connection already open"<<std::endl;
+    if (con != nullptr && !con->isClosed()) {
+        std::cout << "Connection already open" << std::endl;
         return true;
     }
     driver = sql::mysql::get_driver_instance();
@@ -118,6 +118,15 @@ void MYDB::DbManager::addStudent(const Model::StudentDTO &student) {
     }
 
     try {
+
+        //检查账户是否已经存在。避免外键冲突
+        std::unique_ptr<sql::PreparedStatement> checkStmt(
+                con->prepareStatement("SELECT * FROM useraccounts WHERE USERID = ?"));
+        checkStmt->setString(1, student.getId());
+        std::unique_ptr<sql::ResultSet> res(checkStmt->executeQuery());
+        if (!res->next()) {
+            throw std::runtime_error("Account with id " + student.getId() + " does not exist");
+        }
         std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement(
                 "INSERT INTO studentinformation (studentname, studentid, EMAIL, PHONEnumber) VALUES (?, ?, ?, ?)"));
         stmt->setString(1, student.getName());
@@ -145,7 +154,14 @@ bool MYDB::DbManager::deleteStudent(const std::string &id) {
         return false;
     }
     try {
-        // 首先删除studentcourses表中的记录
+
+        std::unique_ptr<sql::PreparedStatement> stmt2(
+                con->prepareStatement("DELETE FROM studentscore WHERE studentID = ?")
+        );
+        stmt2->setString(1, id);
+        stmt2->executeUpdate();
+
+
         std::unique_ptr<sql::PreparedStatement> stmt1(
                 con->prepareStatement("DELETE FROM studentcourses WHERE studentId = ?")
         );
@@ -181,6 +197,13 @@ bool MYDB::DbManager::updateStudent(const Model::StudentDTO &student) {
     }
 
     try {
+        std::unique_ptr<sql::PreparedStatement> checkStmt(
+                con->prepareStatement("SELECT * FROM studentinformation WHERE studentID = ?"));
+        checkStmt->setString(1, student.getId());
+        std::unique_ptr<sql::ResultSet> res(checkStmt->executeQuery());
+        if (!res->next()) {
+            throw std::runtime_error("Student with id " + student.getId() + " does not exist");
+        }
         std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement(
                 "UPDATE studentinformation SET studentNAME = ?, EMAIL = ?, PHONEnumber = ? WHERE studentID = ?"));
         stmt->setString(1, student.getName());
@@ -199,7 +222,7 @@ bool MYDB::DbManager::updateStudent(const Model::StudentDTO &student) {
 //Course
 
 bool MYDB::DbManager::addCourse(Model::Course course) {
-    if(course.getId().empty() || course.getName().empty() || course.getTeacherId().empty()){
+    if (course.getId().empty() || course.getName().empty() || course.getTeacherId().empty()) {
         throw std::runtime_error("Course information is incomplete");
 
     }
@@ -208,6 +231,13 @@ bool MYDB::DbManager::addCourse(Model::Course course) {
     }
 
     try {
+        std::unique_ptr<sql::PreparedStatement> checkTeacherStmt(
+                con->prepareStatement("SELECT * FROM teacherinformation WHERE teacherId = ?"));
+        checkTeacherStmt->setString(1, course.getTeacherId());
+        std::unique_ptr<sql::ResultSet> res(checkTeacherStmt->executeQuery());
+        if (!res->next()) {
+            throw std::runtime_error("Teacher with id " + course.getTeacherId() + " does not exist");
+        }
         std::unique_ptr<sql::PreparedStatement> stmt(
                 con->prepareStatement("INSERT INTO course (courseName, courseID, teacher) VALUES (?, ?, ?)"));
         stmt->setString(1, course.getName());
@@ -228,6 +258,14 @@ bool MYDB::DbManager::deleteCourse(const std::string &id) {
     }
 
     try {
+        std::unique_ptr<sql::PreparedStatement> checkStmt(
+                con->prepareStatement("SELECT * FROM course WHERE courseID = ?"));
+        checkStmt->setString(1, id);
+        std::unique_ptr<sql::ResultSet> res(checkStmt->executeQuery());
+        if (!res->next()) {
+            throw std::runtime_error("Course with id " + id + " does not exist");
+        }
+
         std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement("DELETE FROM course WHERE courseID = ?"));
         stmt->setString(1, id);
         stmt->execute();
@@ -245,6 +283,21 @@ bool MYDB::DbManager::updateCourse(Model::Course course) {
     }
 
     try {
+        // 检查教师是否存在
+        std::unique_ptr<sql::PreparedStatement> checkTeacherStmt(
+                con->prepareStatement("SELECT * FROM teacherinformation WHERE teacherId = ?"));
+        checkTeacherStmt->setString(1, course.getTeacherId());
+        std::unique_ptr<sql::ResultSet> res1(checkTeacherStmt->executeQuery());
+        if (!res1->next()) {
+            throw std::runtime_error("Teacher with id " + course.getTeacherId() + " does not exist");
+        }
+        std::unique_ptr<sql::PreparedStatement> checkStmt(
+                con->prepareStatement("SELECT * FROM course WHERE courseID = ?"));
+        checkStmt->setString(1, course.getId());
+        std::unique_ptr<sql::ResultSet> res(checkStmt->executeQuery());
+        if (!res->next()) {
+            throw std::runtime_error("Course with id " + course.getId() + " does not exist");
+        }
         std::unique_ptr<sql::PreparedStatement> stmt(
                 con->prepareStatement("UPDATE course SET courseName = ?, TEACHER = ? WHERE courseID = ?"));
         stmt->setString(1, course.getName());
@@ -265,6 +318,7 @@ Model::StudentDTO MYDB::DbManager::queryStudent(const std::string &studentId) {
     }
 
     try {
+
         // Prepare the SQL query
         std::unique_ptr<sql::PreparedStatement> stmt(
                 con->prepareStatement("SELECT * FROM studentinformation WHERE studentid = ?"));
@@ -298,6 +352,22 @@ bool MYDB::DbManager::addCourseToStudent(const std::string &studentId, const std
     }
 
     try {
+        //判断是否存在这个课程id和学生id
+        std::unique_ptr<sql::PreparedStatement> checkCourseStmt(
+                con->prepareStatement("SELECT * FROM course WHERE courseID = ?"));
+        checkCourseStmt->setString(1, courseId);
+        std::unique_ptr<sql::ResultSet> res1(checkCourseStmt->executeQuery());
+        if (!res1->next()) {
+            throw std::runtime_error("Course with id " + courseId + " does not exist");
+        }
+        //检查学生是否存在
+        std::unique_ptr<sql::PreparedStatement> checkStudentStmt(
+                con->prepareStatement("SELECT * FROM studentinformation WHERE studentID = ?"));
+        checkStudentStmt->setString(1, studentId);
+        std::unique_ptr<sql::ResultSet> res2(checkStudentStmt->executeQuery());
+        if (!res2->next()) {
+            throw std::runtime_error("Student with id " + studentId + " does not exist");
+        }
         // 首先，我们需要找到一个空的 courseID 字段
         std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement(
                 "SELECT * FROM studentcourses WHERE studentID = ?"
@@ -345,7 +415,36 @@ void MYDB::DbManager::removeCourseFromStudent(const std::string &studentId, cons
     }
 
     try {
-        // 我们需要找到包含指定课程ID的 courseID 字段
+        //首先判断这个课程是否存在
+        std::unique_ptr<sql::PreparedStatement> checkCourseStmt(
+                con->prepareStatement(
+                        "SELECT * FROM studentcourses WHERE studentID = ? AND (courseID_1 = ? OR courseID_2 = ? OR courseID_3 = ? OR courseID_4 = ?)"));
+        checkCourseStmt->setString(1, studentId);
+        checkCourseStmt->setString(2, courseId);
+        checkCourseStmt->setString(3, courseId);
+        checkCourseStmt->setString(4, courseId);
+        checkCourseStmt->setString(5, courseId);
+        std::unique_ptr<sql::ResultSet> res1(checkCourseStmt->executeQuery());
+        if (!res1->next()) {
+            throw std::runtime_error("The student has not chosen this course");
+        }
+        else {
+            //先判断课程成绩是否存在，如果存在然后删除
+            sql::PreparedStatement *stmt0;
+            stmt0 = con->prepareStatement("SELECT * FROM studentscore WHERE studentID = ? AND courseID = ?");
+            stmt0->setString(1, studentId);
+            stmt0->setString(2, courseId);
+            sql::ResultSet *res0 = stmt0->executeQuery();
+            if (res0->next()) {
+
+                std::unique_ptr<sql::PreparedStatement> stmt1(
+                        con->prepareStatement("DELETE FROM studentscore WHERE studentID = ? AND courseID = ?"));
+                         stmt1->setString(1, studentId);
+                stmt1->setString(2, courseId);
+                stmt1->execute();
+            }
+        }
+
         std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement(
                 "UPDATE studentcourses SET courseID_1 = IF(courseID_1 = ?, NULL, courseID_1), courseID_2 = IF(courseID_2 = ?, NULL, courseID_2), courseID_3 = IF(courseID_3 = ?, NULL, courseID_3), courseID_4 = IF(courseID_4 = ?, NULL, courseID_4) WHERE studentID = ?"
         ));
@@ -389,8 +488,6 @@ std::vector<Model::Course> MYDB::DbManager::viewCourses() {
 }
 
 
-
-
 std::vector<Model::Course> MYDB::DbManager::getAllCoursesForStudent(const std::string &studentId) {
     std::vector<Model::Course> courses;
 
@@ -432,12 +529,26 @@ std::vector<Model::Course> MYDB::DbManager::getAllCoursesForStudent(const std::s
     return courses;
 }
 
-void MYDB::DbManager::updateScore(const Model::StudentScore& score) {
+void MYDB::DbManager::updateScore(const Model::StudentScore &score) {
     if (!openConnection()) {
         return;
     }
 
     try {
+        //检查学生是否选过这个课程
+        std::unique_ptr<sql::PreparedStatement> checkCourseStmt(
+                con->prepareStatement(
+                        "SELECT * FROM studentcourses WHERE studentID = ? AND (courseID_1 = ? OR courseID_2 = ? OR courseID_3 = ? OR courseID_4 = ?)"));
+        checkCourseStmt->setString(1, score.getStudentId());
+        checkCourseStmt->setString(2, score.getCourseId());
+        checkCourseStmt->setString(3, score.getCourseId());
+        checkCourseStmt->setString(4, score.getCourseId());
+        checkCourseStmt->setString(5, score.getCourseId());
+        std::unique_ptr<sql::ResultSet> res1(checkCourseStmt->executeQuery());
+        // 如果查询结果为空，说明学生没有选择这门课程，抛出一个异常
+        if (!res1->next()) {
+            throw std::runtime_error("The student has not chosen this course");
+        }
         //检查是否存在数据库记录，如果没有则直接插入
         std::unique_ptr<sql::PreparedStatement> checkStmt(
                 con->prepareStatement("SELECT * FROM studentscore WHERE studentID = ? AND courseID = ?"));
@@ -467,14 +578,13 @@ void MYDB::DbManager::updateScore(const Model::StudentScore& score) {
 
 }
 
-Model::StudentScore MYDB::DbManager::getStudentScore(const std::string& basicString, const std::string &basicString1)
-{
+Model::StudentScore MYDB::DbManager::getStudentScore(const std::string &basicString, const std::string &basicString1) {
     if (!openConnection()) {
         return {};
     }
-    try
-    {
-        std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement("SELECT * FROM studentscore WHERE studentID = ? AND courseID = ?"));
+    try {
+        std::unique_ptr<sql::PreparedStatement> stmt(
+                con->prepareStatement("SELECT * FROM studentscore WHERE studentID = ? AND courseID = ?"));
         stmt->setString(1, basicString);
         stmt->setString(2, basicString1);
         std::unique_ptr<sql::ResultSet> res(stmt->executeQuery());
@@ -488,6 +598,49 @@ Model::StudentScore MYDB::DbManager::getStudentScore(const std::string& basicStr
         }
     } catch (const sql::SQLException &e) {
         std::cerr << "SQLException: " << e.what() << std::endl;
+        throw std::runtime_error(translateSQLException(e));
+    }
+
+}
+
+Model::Course MYDB::DbManager::getCourse(const std::string &basicString) {
+    try {
+        if (!openConnection()) {
+            return {};
+        }
+        std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement("SELECT * FROM course WHERE courseID = ?"));
+        stmt->setString(1, basicString);
+        std::unique_ptr<sql::ResultSet> res(stmt->executeQuery());
+        if (res->next()) {
+            std::string name = res->getString("courseName");
+            std::string id = res->getString("courseID");
+            std::string teacherId = res->getString("teacher");
+            return {name, id, teacherId};
+        }
+    } catch (const sql::SQLException &e) {
+        std::cerr << "SQLException: " << e.what() << std::endl;
+        throw std::runtime_error(translateSQLException(e));
+    }
+    return {};
+}
+
+std::vector<Model::StudentDTO> MYDB::DbManager::displayAllStudents() {
+    try {
+        if (!openConnection()) {
+            return {};
+        }
+        std::vector<Model::StudentDTO> students;
+        std::unique_ptr<sql::PreparedStatement> stmt(con->prepareStatement("SELECT * FROM studentinformation"));
+        std::unique_ptr<sql::ResultSet> res(stmt->executeQuery());
+        while (res->next()) {
+            std::string name = res->getString("studentName");
+            std::string id = res->getString("studentID");
+            std::string email = res->getString("email");
+            std::string phoneNumber = res->getString("phonenumber");
+            students.emplace_back(name, id, email, phoneNumber);
+        }
+        return students;
+    } catch (const sql::SQLException &e) {
         throw std::runtime_error(translateSQLException(e));
     }
 

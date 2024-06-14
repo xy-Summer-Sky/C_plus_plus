@@ -44,13 +44,11 @@ namespace SystemUi {
     }
 
     void StudentForm::displayStudentInfo(const std::string &studentId) {
-        // 获取学生信息
-        qDebug() << "displayStudentInfo function called";
+
+
         Model::StudentDTO Student = controller->getStudent(studentId);
-        qDebug() << "Student info got successfully";
 
         if (Student.getName().empty() || Student.getId().empty() || Student.getEmail().empty() || Student.getPhoneNumber().empty()) {
-            qDebug() << "No student info found";
             emit controller->errorOccured("No student info found");
             return;
         }
@@ -77,6 +75,8 @@ namespace SystemUi {
             model->setItem(i, 4, new QStandardItem(QString::fromStdString(score.getScore())));
 
         }
+        ui->tableViewCourses->resizeColumnsToContents();
+        ui->tableViewCourses->setEditTriggers(QAbstractItemView::NoEditTriggers);
         ui->tableViewCourses->setModel(model);
     }
 

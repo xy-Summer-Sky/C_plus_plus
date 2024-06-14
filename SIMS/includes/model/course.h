@@ -9,24 +9,24 @@
 
 namespace Model {
 
+    //课程类
     class Course {
     public:
         Course();
 
         Course(const std::string &name, const std::string &id, const std::string &teacherId);
 
-        const std::string &getName();
+        const std::string &getName();//获取课程名
 
-        void setName(const std::string &name);
+        void setName(const std::string &name);//设置课程名
 
+        const std::string &getId();//获取课程id
 
-        const std::string &getId();
+        void setId(const std::string &id);//设置课程id
 
-        void setId(const std::string &id);
+        const std::string &getTeacherId();//获取教师id
 
-        const std::string &getTeacherId();
-
-        void setTeacherId(const std::string &teacherId);
+        void setTeacherId(const std::string &teacherId);//设置教师id
     private:
         std::string name_;
         std::string id_;

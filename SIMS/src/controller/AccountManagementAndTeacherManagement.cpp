@@ -122,7 +122,6 @@ std::vector<Model::TeacherInformation> Controller::AdminController::displayAllTe
 Model::TeacherInformation Controller::AdminController::getTeacherInfo(const QString& basicString) {
     try{
         Model::TeacherInformation teacher = MYDB::DbManager::getTeacherInformation(basicString.toStdString());
-        emit operationSuccess("Successfully queried teacher with id " + basicString);
         return teacher;
     }catch
     (const std::runtime_error &e) {
@@ -142,6 +141,8 @@ void Controller::AdminController::updateScore(const QString &studentId, const QS
     }
 
 }
+
+
 
 
 

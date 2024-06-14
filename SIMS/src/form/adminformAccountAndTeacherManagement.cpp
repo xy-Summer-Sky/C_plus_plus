@@ -1,24 +1,45 @@
 //
 // Created by Lenovo on 24-6-7.
 //
+#include <QMessageBox>
 #include"adminform.h"
 #include"admincontroller.h"
 #include"ui_AdminForm.h"
 
 void SystemUi::AdminForm::onAddAccount() {
+    if(ui->useridLineEdit->text().isEmpty()||ui->passwordLineEditAccountManagement->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Add Account Failed", "Please enter username and password.");
+        return;
+    }
 
     adminController->addAccount(ui->useridLineEdit->text(), ui->passwordLineEditAccountManagement->text(), ui->UserType->currentText());
 }
 
 void SystemUi::AdminForm::onUpdateAccount() {
+    if(ui->useridLineEdit->text().isEmpty()||ui->passwordLineEditAccountManagement->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Update Account Failed", "Please enter username and password.");
+        return;
+    }
    adminController->updateAccount(ui->useridLineEdit->text(), ui->passwordLineEditAccountManagement->text(), ui->UserType->currentText());
 }
 
 void SystemUi::AdminForm::onDeleteAccount() {
+    if(ui->useridLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Delete Account Failed", "Please enter username.");
+        return;
+    }
     adminController->deleteAccount(ui->useridLineEdit->text());
 }
 
 void SystemUi::AdminForm::onQueryAccount() {
+    if(ui->useridLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Query Account Failed", "Please enter username.");
+        return;
+    }
     Model::UserAccount userAccount=adminController->queryAccount(ui->useridLineEdit->text());
     ui->useridLineEdit->setText(userAccount.getUsername().c_str());
     ui->passwordLineEditAccountManagement->setText(userAccount.getPassword().c_str());
@@ -47,24 +68,45 @@ void SystemUi::AdminForm::displayAccountInfo() {
     }
 
     // 将模型设置到视图
+    ui->AccountList->resizeColumnsToContents();
     ui->AccountList->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->AccountList->setModel(model);
 
 }
 
 void SystemUi::AdminForm::onAddTeacher() {
+    if(ui->teacherNameLineEdit->text().isEmpty()||ui->teacherIdLineEdit->text().isEmpty()||ui->teacherEmailLineEdit->text().isEmpty()||ui->teacherPhoneNumberLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Add Teacher Failed", "Please enter teacher's name, id, email and phone number.");
+        return;
+    }
     adminController->addTeacher(ui->teacherNameLineEdit->text(), ui->teacherIdLineEdit->text(), ui->teacherEmailLineEdit->text(), ui->teacherPhoneNumberLineEdit->text());
 }
 
 void SystemUi::AdminForm::onUpdateTeacher() {
+    if(ui->teacherNameLineEdit->text().isEmpty()||ui->teacherIdLineEdit->text().isEmpty()||ui->teacherEmailLineEdit->text().isEmpty()||ui->teacherPhoneNumberLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Update Teacher Failed", "Please enter teacher's name, id, email and phone number.");
+        return;
+    }
     adminController->updateTeacher(ui->teacherIdLineEdit->text(), ui->teacherNameLineEdit->text(), ui->teacherEmailLineEdit->text(), ui->teacherPhoneNumberLineEdit->text());
 }
 
 void SystemUi::AdminForm::onDeleteTeacher() {
+    if(ui->teacherIdLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Delete Teacher Failed", "Please enter teacher's id.");
+        return;
+    }
     adminController->deleteTeacher(ui->teacherIdLineEdit->text());
 }
 
 void SystemUi::AdminForm::onQueryTeacher() {
+    if(ui->teacherIdLineEdit->text().isEmpty())
+    {
+        QMessageBox::warning(this, "Query Teacher Failed", "Please enter teacher's id.");
+        return;
+    }
     Model::TeacherInformation teacher = adminController->queryTeacher(ui->teacherIdLineEdit->text());
     if(teacher.getId().empty()||teacher.getName().empty()||teacher.getEmail().empty()||teacher.getPhoneNumber().empty())
     {return;
@@ -99,6 +141,7 @@ void SystemUi::AdminForm::displayTeacherInfo() {
     }
 
     // 将模型设置到视图
+    ui->TeachersTableView->resizeColumnsToContents();
     ui->TeachersTableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->TeachersTableView->setModel(model);
 

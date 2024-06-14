@@ -167,5 +167,32 @@ namespace Controller {
             return {};
         }
     }
+    std::vector<Model::StudentDTO> Controller::AdminController::displayAllStudents() {
+        try {
+            std::vector<Model::StudentDTO> students = MYDB::DbManager::displayAllStudents();
+            emit operationSuccess("Successfully displayed all students");
+            return students;
+        } catch (const std::runtime_error &e) {
+            emit errorOccured(QString::fromStdString(e.what()));
+            return {};
+        }
+
+    }
+
+    Model::Course Controller::AdminController::queryCourse(const std::string &basicString) {
+        try {
+            Model::Course course = MYDB::DbManager::getCourse(basicString);
+            if(course.getId().empty()||course.getName().empty()) {
+                emit errorOccured("Course not found");
+                return {};
+            }
+            emit operationSuccess("Successfully queried course with id " + QString::fromStdString(basicString));
+            return course;
+        } catch (const std::runtime_error &e) {
+            emit errorOccured(QString::fromStdString(e.what()));
+            return {};
+        }
+
+    }
 
 }

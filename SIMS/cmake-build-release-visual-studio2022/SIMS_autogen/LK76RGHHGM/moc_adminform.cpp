@@ -41,11 +41,13 @@ constexpr auto qt_meta_stringdata_CLASSSystemUiSCOPEAdminFormENDCLASS = QtMocHel
     "onQueryStudent",
     "onDeleteStudent",
     "onUpdateStudent",
+    "displayAllStudentInfo",
     "onAddCourseToStudent",
     "onRemoveCourseFromStudent",
     "onAddCourse",
     "onUpdateCourse",
     "onDeleteCourse",
+    "onQueryCourse",
     "onViewCourses",
     "onAddAccount",
     "onUpdateAccount",
@@ -74,7 +76,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSystemUiSCOPEAdminFormENDCLASS[]
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      23,   14, // methods
+      25,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -82,29 +84,31 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSystemUiSCOPEAdminFormENDCLASS[]
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,  152,    2, 0x0a,    1 /* Public */,
-       3,    0,  153,    2, 0x0a,    2 /* Public */,
-       4,    0,  154,    2, 0x0a,    3 /* Public */,
-       5,    0,  155,    2, 0x0a,    4 /* Public */,
-       6,    0,  156,    2, 0x0a,    5 /* Public */,
-       7,    0,  157,    2, 0x0a,    6 /* Public */,
-       8,    0,  158,    2, 0x0a,    7 /* Public */,
-       9,    0,  159,    2, 0x0a,    8 /* Public */,
-      10,    0,  160,    2, 0x0a,    9 /* Public */,
-      11,    0,  161,    2, 0x0a,   10 /* Public */,
-      12,    0,  162,    2, 0x0a,   11 /* Public */,
-      13,    0,  163,    2, 0x0a,   12 /* Public */,
-      14,    0,  164,    2, 0x0a,   13 /* Public */,
-      15,    0,  165,    2, 0x0a,   14 /* Public */,
-      16,    0,  166,    2, 0x0a,   15 /* Public */,
-      17,    0,  167,    2, 0x0a,   16 /* Public */,
-      18,    0,  168,    2, 0x0a,   17 /* Public */,
-      19,    0,  169,    2, 0x0a,   18 /* Public */,
-      20,    0,  170,    2, 0x0a,   19 /* Public */,
-      21,    0,  171,    2, 0x0a,   20 /* Public */,
-      22,    0,  172,    2, 0x0a,   21 /* Public */,
-      23,    1,  173,    2, 0x0a,   22 /* Public */,
-      25,    1,  176,    2, 0x0a,   24 /* Public */,
+       1,    0,  164,    2, 0x0a,    1 /* Public */,
+       3,    0,  165,    2, 0x0a,    2 /* Public */,
+       4,    0,  166,    2, 0x0a,    3 /* Public */,
+       5,    0,  167,    2, 0x0a,    4 /* Public */,
+       6,    0,  168,    2, 0x0a,    5 /* Public */,
+       7,    0,  169,    2, 0x0a,    6 /* Public */,
+       8,    0,  170,    2, 0x0a,    7 /* Public */,
+       9,    0,  171,    2, 0x0a,    8 /* Public */,
+      10,    0,  172,    2, 0x0a,    9 /* Public */,
+      11,    0,  173,    2, 0x0a,   10 /* Public */,
+      12,    0,  174,    2, 0x0a,   11 /* Public */,
+      13,    0,  175,    2, 0x0a,   12 /* Public */,
+      14,    0,  176,    2, 0x0a,   13 /* Public */,
+      15,    0,  177,    2, 0x0a,   14 /* Public */,
+      16,    0,  178,    2, 0x0a,   15 /* Public */,
+      17,    0,  179,    2, 0x0a,   16 /* Public */,
+      18,    0,  180,    2, 0x0a,   17 /* Public */,
+      19,    0,  181,    2, 0x0a,   18 /* Public */,
+      20,    0,  182,    2, 0x0a,   19 /* Public */,
+      21,    0,  183,    2, 0x0a,   20 /* Public */,
+      22,    0,  184,    2, 0x0a,   21 /* Public */,
+      23,    0,  185,    2, 0x0a,   22 /* Public */,
+      24,    0,  186,    2, 0x0a,   23 /* Public */,
+      25,    1,  187,    2, 0x0a,   24 /* Public */,
+      27,    1,  190,    2, 0x0a,   26 /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -128,8 +132,10 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSystemUiSCOPEAdminFormENDCLASS[]
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void, QMetaType::QString,   26,
+    QMetaType::Void, QMetaType::QString,   28,
 
        0        // eod
 };
@@ -151,6 +157,8 @@ Q_CONSTINIT const QMetaObject SystemUi::AdminForm::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onUpdateStudent'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'displayAllStudentInfo'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onAddCourseToStudent'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onRemoveCourseFromStudent'
@@ -160,6 +168,8 @@ Q_CONSTINIT const QMetaObject SystemUi::AdminForm::staticMetaObject = { {
         // method 'onUpdateCourse'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onDeleteCourse'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onQueryCourse'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onViewCourses'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -205,25 +215,27 @@ void SystemUi::AdminForm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 1: _t->onQueryStudent(); break;
         case 2: _t->onDeleteStudent(); break;
         case 3: _t->onUpdateStudent(); break;
-        case 4: _t->onAddCourseToStudent(); break;
-        case 5: _t->onRemoveCourseFromStudent(); break;
-        case 6: _t->onAddCourse(); break;
-        case 7: _t->onUpdateCourse(); break;
-        case 8: _t->onDeleteCourse(); break;
-        case 9: _t->onViewCourses(); break;
-        case 10: _t->onAddAccount(); break;
-        case 11: _t->onUpdateAccount(); break;
-        case 12: _t->onDeleteAccount(); break;
-        case 13: _t->onQueryAccount(); break;
-        case 14: _t->displayAccountInfo(); break;
-        case 15: _t->onAddTeacher(); break;
-        case 16: _t->onUpdateTeacher(); break;
-        case 17: _t->onDeleteTeacher(); break;
-        case 18: _t->onQueryTeacher(); break;
-        case 19: _t->displayTeacherInfo(); break;
-        case 20: _t->onUpdateScore(); break;
-        case 21: _t->displayError((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 22: _t->displaySuccessMessage((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 4: _t->displayAllStudentInfo(); break;
+        case 5: _t->onAddCourseToStudent(); break;
+        case 6: _t->onRemoveCourseFromStudent(); break;
+        case 7: _t->onAddCourse(); break;
+        case 8: _t->onUpdateCourse(); break;
+        case 9: _t->onDeleteCourse(); break;
+        case 10: _t->onQueryCourse(); break;
+        case 11: _t->onViewCourses(); break;
+        case 12: _t->onAddAccount(); break;
+        case 13: _t->onUpdateAccount(); break;
+        case 14: _t->onDeleteAccount(); break;
+        case 15: _t->onQueryAccount(); break;
+        case 16: _t->displayAccountInfo(); break;
+        case 17: _t->onAddTeacher(); break;
+        case 18: _t->onUpdateTeacher(); break;
+        case 19: _t->onDeleteTeacher(); break;
+        case 20: _t->onQueryTeacher(); break;
+        case 21: _t->displayTeacherInfo(); break;
+        case 22: _t->onUpdateScore(); break;
+        case 23: _t->displayError((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 24: _t->displaySuccessMessage((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
@@ -248,13 +260,13 @@ int SystemUi::AdminForm::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 23)
+        if (_id < 25)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 23;
+        _id -= 25;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 23)
+        if (_id < 25)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 23;
+        _id -= 25;
     }
     return _id;
 }

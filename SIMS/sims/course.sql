@@ -8,8 +8,12 @@ create table if not exists course
     constraint course_pk
         unique (courseID),
     constraint `unique`
-        unique (courseID),
-    constraint course_teacherinformation_teacherId_fk
-        foreign key (teacher) references teacherinformation (teacherId)
+        unique (courseID)
+);
+
+create index course_teacherinformation_teacherId_fk
+    on course (teacher);
+
+r) references teacherinformation (teacherId)
 );
 

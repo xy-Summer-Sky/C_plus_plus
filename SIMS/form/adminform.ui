@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>904</width>
-    <height>702</height>
+    <width>786</width>
+    <height>642</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>2</number>
+      <number>1</number>
      </property>
      <property name="tabBarAutoHide">
       <bool>true</bool>
@@ -93,6 +93,13 @@
         <widget class="QPushButton" name="deleteStudent">
          <property name="text">
           <string>Delete Student</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ButtonListAllStudents">
+         <property name="text">
+          <string>ListAllStudents</string>
          </property>
         </widget>
        </item>
@@ -289,6 +296,13 @@
           <widget class="QPushButton" name="deleteCourseButton">
            <property name="text">
             <string>Delete Course</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonQueryCourse">
+           <property name="text">
+            <string>Query Course</string>
            </property>
           </widget>
          </item>

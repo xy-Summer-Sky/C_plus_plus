@@ -36,9 +36,9 @@ namespace Controller {
         void requestStudentInfo();
 
     signals:
-        void errorOccured(const QString &message);
+        void errorOccured(const QString &message);//错误信号
 
-        void operationSuccess(const QString &successMessage);
+        void operationSuccess(const QString &successMessage);//操作成功信号
 
     private:
         SystemUi::StudentForm *view;

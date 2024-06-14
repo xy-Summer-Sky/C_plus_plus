@@ -21,7 +21,6 @@ namespace SystemUi {
 
     LoginForm::~LoginForm() {
         delete ui;
-        delete ui;
         if (loginController != nullptr)
             delete loginController;
     }

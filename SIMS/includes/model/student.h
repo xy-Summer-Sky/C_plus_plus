@@ -7,31 +7,28 @@
 #include <vector>
 #include <string>
 namespace Model {
+    //学生类
     class StudentDTO {
     public:
         StudentDTO();
 
-        StudentDTO(const std::string &name, const std::string &id, const std::string &email,
-                   const std::string &phoneNumber);
+        StudentDTO(const std::string &name, const std::string &id, const std::string &email,const std::string &phoneNumber);
 
-        const std::string &getName() const;
+        const std::string &getName() const;//获取学生名
 
-        void setName(const std::string &name);
+        void setName(const std::string &name);//设置学生名
 
+        const std::string &getId() const;//获取学生id
 
-        const std::string &getId() const;
+        void setId(const std::string &id);//设置学生id
 
+        std::string getEmail() const;//获取学生邮箱
 
-        void setId(const std::string &id);
+        void setEmail(const std::string &email);//设置学生邮箱
 
-        std::string getEmail() const;
+        std::string getPhoneNumber() const;//获取学生电话号码
 
-        void setEmail(const std::string &email);
-
-        std::string getPhoneNumber() const;
-
-        void setPhoneNumber(const std::string &phoneNumber);
-
+        void setPhoneNumber(const std::string &phoneNumber);//设置学生电话号码
 
     private:
         std::string name_;

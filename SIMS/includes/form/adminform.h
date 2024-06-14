@@ -25,17 +25,23 @@ namespace SystemUi {
 
         ~AdminForm() override;
     public slots:
+        // Student operations
         void onSaveStudent();
         void onQueryStudent();
         void onDeleteStudent();
         void onUpdateStudent();
+        void displayAllStudentInfo();
         void onAddCourseToStudent();
         void onRemoveCourseFromStudent();
+    public slots:
+        // Course operations
         void onAddCourse();
         void onUpdateCourse();
         void onDeleteCourse();
+        void onQueryCourse();
         void onViewCourses();
     public slots:
+        // Account operations
         void onAddAccount();
         void onUpdateAccount();
         void onDeleteAccount();
@@ -43,6 +49,7 @@ namespace SystemUi {
         void displayAccountInfo();
 
     public slots:
+        // Teacher operations
         void onAddTeacher();
         void onUpdateTeacher();
         void onDeleteTeacher();
@@ -50,12 +57,12 @@ namespace SystemUi {
         void displayTeacherInfo();
 
     public slots:
+        // Score operations
         void onUpdateScore();
+    public slots:
         // Display error/success message
         void displayError(const QString& errorMessage);
         void displaySuccessMessage(const QString& successMessage);
-
-
 
     private:
         Ui::AdminForm *ui;

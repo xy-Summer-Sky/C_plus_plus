@@ -10,21 +10,23 @@
 
 namespace Model {
 
+    //学生课程类
     class StudentCourses {
     public:
         explicit StudentCourses(const std::string &studentId);
 
         ~StudentCourses() = default;
 
+        //获取学生id
         const std::string &getStudentId() const;
 
-        void setStudentId(const std::string &studentId);
+        void setStudentId(const std::string &studentId);//设置学生id
 
-        const std::vector<std::string> &getCourseIDs();
+        const std::vector<std::string> &getCourseIDs();//获取课程id
 
-        void addCourse(const std::string &courseId);
+        void addCourse(const std::string &courseId);//添加课程
 
-        void removeCourse(const std::string &courseId);
+        void removeCourse(const std::string &courseId);//移除课程
 
 
     private:

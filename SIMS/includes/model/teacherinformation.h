@@ -7,6 +7,7 @@
 #include <string>
 namespace Model
 {
+    //教师信息类
     class TeacherInformation
     {
     public:
@@ -14,21 +15,21 @@ namespace Model
 
         TeacherInformation(const std::string &name, const std::string &id, const std::string &email, const std::string &phone_number);
 
-        const std::string &getName();
+        const std::string &getName();//获取教师名
 
-        void setName(const std::string &name);
+        void setName(const std::string &name);//设置教师名
 
-        const std::string &getId();
+        const std::string &getId();//获取教师id
 
-        void setId(const std::string &id);
+        void setId(const std::string &id);//设置教师id
 
-        const std::string &getEmail();
+        const std::string &getEmail();//获取教师邮箱
 
-        void setEmail(const std::string &email);
+        void setEmail(const std::string &email);//设置教师邮箱
 
-        const std::string &getPhoneNumber();
+        const std::string &getPhoneNumber();//获取教师电话号码
 
-        void setPhoneNumber(const std::string &phone_number);
+        void setPhoneNumber(const std::string &phone_number);//设置教师电话号码
 
     private:
         std::string name_;

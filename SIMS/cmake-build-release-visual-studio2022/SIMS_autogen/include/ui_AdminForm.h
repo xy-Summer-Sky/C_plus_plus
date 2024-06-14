@@ -45,6 +45,7 @@ public:
     QPushButton *QueryStudent;
     QPushButton *UpdateStudent;
     QPushButton *deleteStudent;
+    QPushButton *ButtonListAllStudents;
     QHBoxLayout *horizontalLayoutCourses;
     QTableView *tableViewCourses;
     QVBoxLayout *verticalLayoutCourseButtons;
@@ -73,6 +74,7 @@ public:
     QPushButton *addCourseButton;
     QPushButton *updateCourseButton;
     QPushButton *deleteCourseButton;
+    QPushButton *ButtonQueryCourse;
     QPushButton *viewCoursesButton;
     QTableView *courseTableView;
     QWidget *tabAccountsManagement;
@@ -113,7 +115,7 @@ public:
     {
         if (SystemUi__AdminForm->objectName().isEmpty())
             SystemUi__AdminForm->setObjectName("SystemUi__AdminForm");
-        SystemUi__AdminForm->resize(904, 702);
+        SystemUi__AdminForm->resize(786, 642);
         verticalLayout = new QVBoxLayout(SystemUi__AdminForm);
         verticalLayout->setObjectName("verticalLayout");
         tabWidget = new QTabWidget(SystemUi__AdminForm);
@@ -187,6 +189,11 @@ public:
         deleteStudent->setObjectName("deleteStudent");
 
         verticalLayoutStudent->addWidget(deleteStudent);
+
+        ButtonListAllStudents = new QPushButton(tabStudent);
+        ButtonListAllStudents->setObjectName("ButtonListAllStudents");
+
+        verticalLayoutStudent->addWidget(ButtonListAllStudents);
 
         horizontalLayoutCourses = new QHBoxLayout();
         horizontalLayoutCourses->setObjectName("horizontalLayoutCourses");
@@ -343,6 +350,11 @@ public:
 
         horizontalLayoutCourseActions->addWidget(deleteCourseButton);
 
+        ButtonQueryCourse = new QPushButton(tabCourseManagement);
+        ButtonQueryCourse->setObjectName("ButtonQueryCourse");
+
+        horizontalLayoutCourseActions->addWidget(ButtonQueryCourse);
+
         viewCoursesButton = new QPushButton(tabCourseManagement);
         viewCoursesButton->setObjectName("viewCoursesButton");
 
@@ -369,7 +381,6 @@ public:
         formLayoutSelection->setWidget(2, QFormLayout::LabelRole, labelUserType);
 
         UserType = new QComboBox(tabAccountsManagement);
-        UserType->addItem(QString());
         UserType->addItem(QString());
         UserType->addItem(QString());
         UserType->setObjectName("UserType");
@@ -524,7 +535,7 @@ public:
 
         retranslateUi(SystemUi__AdminForm);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(SystemUi__AdminForm);
@@ -540,6 +551,7 @@ public:
         QueryStudent->setText(QCoreApplication::translate("SystemUi::AdminForm", "Query Student", nullptr));
         UpdateStudent->setText(QCoreApplication::translate("SystemUi::AdminForm", "Update Student", nullptr));
         deleteStudent->setText(QCoreApplication::translate("SystemUi::AdminForm", "Delete Student", nullptr));
+        ButtonListAllStudents->setText(QCoreApplication::translate("SystemUi::AdminForm", "ListAllStudents", nullptr));
 #if QT_CONFIG(tooltip)
         tableViewCourses->setToolTip(QCoreApplication::translate("SystemUi::AdminForm", "Student's Courses", nullptr));
 #endif // QT_CONFIG(tooltip)
@@ -556,6 +568,7 @@ public:
         addCourseButton->setText(QCoreApplication::translate("SystemUi::AdminForm", "Add Course", nullptr));
         updateCourseButton->setText(QCoreApplication::translate("SystemUi::AdminForm", "Update Course", nullptr));
         deleteCourseButton->setText(QCoreApplication::translate("SystemUi::AdminForm", "Delete Course", nullptr));
+        ButtonQueryCourse->setText(QCoreApplication::translate("SystemUi::AdminForm", "Query Course", nullptr));
         viewCoursesButton->setText(QCoreApplication::translate("SystemUi::AdminForm", "View Courses", nullptr));
 #if QT_CONFIG(tooltip)
         courseTableView->setToolTip(QCoreApplication::translate("SystemUi::AdminForm", "Full List of Courses", nullptr));
@@ -564,7 +577,6 @@ public:
         labelUserType->setText(QCoreApplication::translate("SystemUi::AdminForm", "UserType", nullptr));
         UserType->setItemText(0, QCoreApplication::translate("SystemUi::AdminForm", "admin", nullptr));
         UserType->setItemText(1, QCoreApplication::translate("SystemUi::AdminForm", "student", nullptr));
-        UserType->setItemText(2, QCoreApplication::translate("SystemUi::AdminForm", "teacher", nullptr));
 
 #if QT_CONFIG(tooltip)
         UserType->setToolTip(QCoreApplication::translate("SystemUi::AdminForm", "Choose a student ID or course ID to generate a report", nullptr));

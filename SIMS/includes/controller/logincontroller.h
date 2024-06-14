@@ -24,9 +24,7 @@ namespace Controller {
 
 
     signals:
-        void userValidated(const std::string &userId);
-        void errorOccured(const QString &message);
-        void operationSuccess(const QString &successMessage);
+        void userValidated(const std::string &userId);//用户验证成功
 
 
     private:

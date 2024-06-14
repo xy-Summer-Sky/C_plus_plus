@@ -41,7 +41,8 @@ namespace SystemUi {
         connect(ui->ButtonQueryTeacher, &QPushButton::clicked, this, &AdminForm::onQueryTeacher);
         connect(ui->ListAllTeachers, &QPushButton::clicked, this, &AdminForm::displayTeacherInfo);
         connect(ui->ScoreButton, &QPushButton::clicked, this, &AdminForm::onUpdateScore);
-
+        connect(ui->ButtonListAllStudents, &QPushButton::clicked, this, &AdminForm::displayAllStudentInfo);
+        connect(ui->ButtonQueryCourse, &QPushButton::clicked, this, &AdminForm::onQueryCourse);
         // Connect the error signal
         connect(adminController, &Controller::AdminController::errorOccured, this, &AdminForm::displayError);
 
@@ -51,19 +52,32 @@ namespace SystemUi {
     }
 
     void AdminForm::onSaveStudent() {
+        //确保输入不为空
+        if(ui->lineEditName->text().isEmpty() || ui->lineEditID->text().isEmpty() || ui->lineEditEmail->text().isEmpty() || ui->lineEditPhone->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Save Failed", "Please enter all the information.");
+            return;
+        }
+
         Model::StudentDTO studentDTO(ui->lineEditName->text().toStdString(), ui->lineEditID->text().toStdString(),
                                      ui->lineEditEmail->text().toStdString(), ui->lineEditPhone->text().toStdString());
         adminController->saveStudent(studentDTO);
     }
 
     void AdminForm::onQueryStudent() {
+        if(ui->lineEditID->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Query Failed", "Please enter the student ID.");
+            return;
+        }
         Model::StudentDTO studentDTO = adminController->queryStudent(ui->lineEditID->text().toStdString());
         ui->lineEditName->setText(QString::fromStdString(studentDTO.getName()));
         ui->lineEditEmail->setText(QString::fromStdString(studentDTO.getEmail()));
         ui->lineEditPhone->setText(QString::fromStdString(studentDTO.getPhoneNumber()));
 
         // 获取学生的课程信息
-        std::vector<Model::Course> courses = adminController->getALLCoursesForStudent(ui->lineEditID->text().toStdString());
+        std::vector<Model::Course> courses = adminController->getALLCoursesForStudent(
+                ui->lineEditID->text().toStdString());
 
         // 显示课程信息
         auto *model = new QStandardItemModel(courses.size(), 6, this); // 注意这里列数变为5
@@ -77,43 +91,77 @@ namespace SystemUi {
             model->setItem(i, 0, new QStandardItem(QString::fromStdString(courses[i].getId())));
             model->setItem(i, 1, new QStandardItem(QString::fromStdString(courses[i].getName())));
             model->setItem(i, 2, new QStandardItem(QString::fromStdString(courses[i].getTeacherId())));
-            Model::TeacherInformation teacher = adminController->getTeacherInfo(QString::fromStdString(courses[i].getTeacherId())); // 新增
+            Model::TeacherInformation teacher = adminController->getTeacherInfo(
+                    QString::fromStdString(courses[i].getTeacherId())); // 新增
             model->setItem(i, 3, new QStandardItem(QString::fromStdString(teacher.getName()))); // 新增
             model->setItem(i, 4, new QStandardItem(QString::fromStdString(teacher.getEmail())));
             //同时显示成绩
-            Model::StudentScore score = adminController->getStudentScore(ui->lineEditID->text().toStdString(), courses[i].getId());
+            Model::StudentScore score = adminController->getStudentScore(ui->lineEditID->text().toStdString(),
+                                                                         courses[i].getId());
             model->setItem(i, 5, new QStandardItem(QString::fromStdString(score.getScore())));
         }
         ui->tableViewCourses->setModel(model);
+        ui->tableViewCourses->resizeColumnsToContents();
+        ui->tableViewCourses->setEditTriggers(QAbstractItemView::NoEditTriggers);
         ui->tableViewCourses->show();
     }
 
     void AdminForm::onDeleteStudent() {
+        if(ui->lineEditID->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Delete Failed", "Please enter the student ID.");
+            return;
+        }
         adminController->deleteStudent(ui->lineEditID->text());
     }
 
     void AdminForm::onAddCourseToStudent() {
+        if(ui->lineEditID->text().isEmpty() || ui->addCourseId->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Add Failed", "Please enter the student ID and course ID.");
+            return;
+        }
         adminController->addCourseToStudent(ui->lineEditID->text().toStdString(),
                                             ui->addCourseId->text().toStdString());
     }
 
     void AdminForm::onRemoveCourseFromStudent() {
+        if(ui->lineEditID->text().isEmpty() || ui->deleteCOURSEid->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Remove Failed", "Please enter the student ID and course ID.");
+            return;
+        }
         adminController->removeCourseFromStudent(ui->lineEditID->text().toStdString(),
                                                  ui->deleteCOURSEid->text().toStdString());
     }
 
     void AdminForm::onAddCourse() {
+        if(ui->courseNameLineEdit->text().isEmpty() || ui->courseIDLineEdit->text().isEmpty() || ui->teacherIDLineEdit->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Add Failed", "Please enter all the information.");
+            return;
+        }
         adminController->addCourse(ui->courseNameLineEdit->text(), ui->courseIDLineEdit->text(),
                                    ui->teacherIDLineEdit->text());
     }
 
     void AdminForm::onUpdateCourse() {
 
+        if(ui->courseNameLineEdit->text().isEmpty() || ui->courseIDLineEdit->text().isEmpty() || ui->teacherIDLineEdit->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Update Failed", "Please enter all the information.");
+            return;
+        }
         adminController->updateCourse(ui->courseIDLineEdit->text(), ui->courseNameLineEdit->text(),
                                       ui->teacherIDLineEdit->text());
     }
 
     void AdminForm::onDeleteCourse() {
+        if(ui->courseIDLineEdit->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Delete Failed", "Please enter the course ID.");
+            return;
+        }
         adminController->deleteCourse(ui->courseIDLineEdit->text());
     }
 
@@ -129,13 +177,16 @@ namespace SystemUi {
             model->setItem(i, 0, new QStandardItem(QString::fromStdString(courses[i].getId())));
             model->setItem(i, 1, new QStandardItem(QString::fromStdString(courses[i].getName())));
             model->setItem(i, 2, new QStandardItem(QString::fromStdString(courses[i].getTeacherId())));
-            Model::TeacherInformation teacher = adminController->getTeacherInfo(QString::fromStdString(courses[i].getTeacherId())); // 新增
+            Model::TeacherInformation teacher = adminController->getTeacherInfo(
+                    QString::fromStdString(courses[i].getTeacherId())); // 新增
             model->setItem(i, 3, new QStandardItem(QString::fromStdString(teacher.getName()))); // 新增
             model->setItem(i, 4, new QStandardItem(QString::fromStdString(teacher.getEmail()))); // 新增
         }
+        //不可修改
+        ui->courseTableView->resizeColumnsToContents();
+        ui->courseTableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
         ui->courseTableView->setModel(model);
     }
-
 
 
     void AdminForm::displayError(const QString &errorMessage) {
@@ -176,6 +227,11 @@ namespace SystemUi {
     }
 
     void AdminForm::onUpdateStudent() {
+        if(ui->lineEditName->text().isEmpty() || ui->lineEditID->text().isEmpty() || ui->lineEditEmail->text().isEmpty() || ui->lineEditPhone->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Update Failed", "Please enter all the information.");
+            return;
+        }
         Model::StudentDTO studentDTO(ui->lineEditName->text().toStdString(), ui->lineEditID->text().toStdString(),
                                      ui->lineEditEmail->text().toStdString(), ui->lineEditPhone->text().toStdString());
         adminController->updateStudent(studentDTO);
@@ -183,10 +239,67 @@ namespace SystemUi {
     }
 
     void AdminForm::onUpdateScore() {
-        adminController->updateScore(ui->studentIDLineEditScore->text(), ui->courseIDLineEditScore->text(), ui->scoreLineEdit->text());
+        if(ui->studentIDLineEditScore->text().isEmpty() || ui->courseIDLineEditScore->text().isEmpty() || ui->scoreLineEdit->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Update Failed", "Please enter all the information.");
+            return;
+        }
+        adminController->updateScore(ui->studentIDLineEditScore->text(), ui->courseIDLineEditScore->text(),
+                                     ui->scoreLineEdit->text());
     }
 
+    void AdminForm::displayAllStudentInfo() {
+        std::vector<Model::StudentDTO> students = adminController->displayAllStudents();
+        auto *model = new QStandardItemModel(students.size(), 4, this);
+        model->setHorizontalHeaderItem(0, new QStandardItem(QString("Student ID")));
+        model->setHorizontalHeaderItem(1, new QStandardItem(QString("Student Name")));
+        model->setHorizontalHeaderItem(2, new QStandardItem(QString("Student Email")));
+        model->setHorizontalHeaderItem(3, new QStandardItem(QString("Student Phone")));
+        for (int i = 0; i < students.size(); i++) {
+            model->setItem(i, 0, new QStandardItem(QString::fromStdString(students[i].getId())));
+            model->setItem(i, 1, new QStandardItem(QString::fromStdString(students[i].getName())));
+            model->setItem(i, 2, new QStandardItem(QString::fromStdString(students[i].getEmail())));
+            model->setItem(i, 3, new QStandardItem(QString::fromStdString(students[i].getPhoneNumber())));
+        }
+        //不可修改
+        ui->tableViewCourses->resizeColumnsToContents();
+        ui->tableViewCourses->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        ui->tableViewCourses->setModel(model);
 
+    }
+
+    void AdminForm::onQueryCourse() {
+        if(ui->courseIDLineEdit->text().isEmpty())
+        {
+            QMessageBox::warning(this, "Query Failed", "Please enter the course ID.");
+            return;
+        }
+        Model::Course course = adminController->queryCourse(ui->courseIDLineEdit->text().toStdString());
+        // 创建一个新的 QStandardItemModel
+        auto *model = new QStandardItemModel(1, 5, this); // 注意这里列数变为5
+        model->setHorizontalHeaderItem(0, new QStandardItem(QString("Course ID")));
+        model->setHorizontalHeaderItem(1, new QStandardItem(QString("Course Name")));
+        model->setHorizontalHeaderItem(2, new QStandardItem(QString("Teacher ID")));
+        model->setHorizontalHeaderItem(3, new QStandardItem(QString("Teacher Name"))); // 新增
+        model->setHorizontalHeaderItem(4, new QStandardItem(QString("Teacher Email"))); // 新增
+
+        model->setItem(0, 0, new QStandardItem(QString::fromStdString(course.getId())));
+        model->setItem(0, 1, new QStandardItem(QString::fromStdString(course.getName())));
+        model->setItem(0, 2, new QStandardItem(QString::fromStdString(course.getTeacherId())));
+        if(course.getTeacherId().empty())
+        {
+            return;
+        }
+        Model::TeacherInformation teacher = adminController->getTeacherInfo(
+                QString::fromStdString(course.getTeacherId())); // 新增
+        model->setItem(0, 3, new QStandardItem(QString::fromStdString(teacher.getName()))); // 新增
+        model->setItem(0, 4, new QStandardItem(QString::fromStdString(teacher.getEmail()))); // 新增
+
+        //不可修改
+        ui->courseTableView->resizeColumnsToContents();
+        ui->courseTableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        ui->courseTableView->setModel(model);
+    }
 
 
 } // SystemUi

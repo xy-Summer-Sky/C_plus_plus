@@ -1,6 +1,3 @@
-//
-// Created by Lenovo on 24-5-21.
-//
 
 #ifndef SIMS_QUERYMODEL_H
 #define SIMS_QUERYMODEL_H
@@ -26,15 +23,15 @@ namespace MYDB {
 
         ~QueryModel();
 
-        static Model::StudentDTO getStudent(const std::string &studentId);
+        static Model::StudentDTO getStudent(const std::string &studentId);//获取学生信息
 
-        static Model::Course getCourse(const std::string &courseId);
+        static Model::Course getCourse(const std::string &courseId);//获取课程信息
 
-        static std::vector<Model::Course> getStudentCourses(const std::string &basicString);
+        static std::vector<Model::Course> getStudentCourses(const std::string &basicString);//获取学生的课程信息
 
-        static Model::TeacherInformation getTeacherInfo(const std::string &basicString);
+        static Model::TeacherInformation getTeacherInfo(const std::string &basicString);//获取教师信息
 
-        static Model::StudentScore getStudentScore(const std::string &basicString, const std::string &basicString1);
+        static Model::StudentScore getStudentScore(const std::string &basicString, const std::string &basicString1);//获取学生课程成绩
 
     private:
         static std::vector<Model::StudentDTO> students_;
@@ -48,8 +45,7 @@ namespace MYDB {
 
         static void closeConnection();
 
-
     };
 
 }
-#endif //SIMS_QUERYMODEL_H
+#endif
