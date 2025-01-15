@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NumberString",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberString-Release-12690dd46e554a688bb4.json",
+					"name" : "NumberString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberString_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberString_autogen-Release-e371ea181886f9dee558.json",
+					"name" : "NumberString_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberString_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberString_autogen_timestamp_deps-Release-9e5d6d4674afa23a93dd.json",
+					"name" : "NumberString_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio",
+		"source" : "F:/CODE/GIThub/C_plus_plus/NumberString"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

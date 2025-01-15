@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\NumberString.dir\\function\\function.cpp.obj",
+            "outputs": [
+                "CMakeFiles\\NumberString.dir\\function\\function.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

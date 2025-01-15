@@ -1,0 +1,15 @@
+# ninja log v6
+18	256	7428341433626133	ConvertNumber_autogen/timestamp	b8aff21fcc9e914f
+18	256	7428341433626133	F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio/ConvertNumber_autogen/mocs_compilation.cpp	b8aff21fcc9e914f
+18	256	7428341433626133	ConvertNumber_autogen/mocs_compilation.cpp	b8aff21fcc9e914f
+679	733	7428341440226603	CMakeFiles/ConvertNumber.dir/CXX.dd	d4d2fdba36d4957f
+18	256	7428341433626133	F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio/ConvertNumber_autogen/timestamp	b8aff21fcc9e914f
+541	938	7427541672014980	CMakeFiles/ConvertNumber.dir/main.cpp.obj.ddi	b302e6bc4f6f7be
+1054	3832	7427541677140447	CMakeFiles/ConvertNumber.dir/main.cpp.obj	757295823d550eea
+256	671	7428341436014506	CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj.ddi	de3a707e0993e59a
+679	733	7428341440226603	F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/CXXModules.json	d4d2fdba36d4957f
+679	733	7428341440226603	CMakeFiles/ConvertNumber.dir/main.cpp.obj.modmap	d4d2fdba36d4957f
+679	733	7428341440226603	CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj.modmap	d4d2fdba36d4957f
+557	3371	7427541672171000	CMakeFiles/ConvertNumber.dir/ConvertNumber_autogen/mocs_compilation.cpp.obj	639fc46a2244f174
+733	4143	7428341440785617	CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj	6173cc9bcb79413c
+4143	4720	7428341474882664	ConvertNumber.exe	33454b21505585dd

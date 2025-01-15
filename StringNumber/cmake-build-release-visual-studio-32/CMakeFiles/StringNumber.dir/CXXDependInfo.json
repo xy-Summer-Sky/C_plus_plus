@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/CODE/GIThub/C_plus_plus/StringNumber/cmake-build-release-visual-studio-32",
+	"dir-cur-src" : "F:/CODE/GIThub/C_plus_plus/StringNumber",
+	"dir-top-bld" : "F:/CODE/GIThub/C_plus_plus/StringNumber/cmake-build-release-visual-studio-32",
+	"dir-top-src" : "F:/CODE/GIThub/C_plus_plus/StringNumber",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"StringNumber_autogen\\include",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\include",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\include\\QtCore",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\.\\mkspecs\\win32-msvc",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\include\\QtGui",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\include\\QtANGLE",
+		"F:\\DevelopmentKitQT_MSVC\\5.15.17\\msvc2019\\include\\QtWidgets"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/CODE/GIThub/C_plus_plus/StringNumber/cmake-build-release-visual-studio-32/CMakeFiles/StringNumber.dir"
+}

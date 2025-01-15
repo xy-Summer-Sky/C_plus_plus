@@ -1,0 +1,8 @@
+# ninja log v6
+6	899	7427535544629059	StringNumber_autogen/timestamp	f41a3c575d8e862c
+6	899	7427535544629059	F:/CODE/GIThub/C_plus_plus/StringNumber/cmake-build-debug/StringNumber_autogen/mocs_compilation.cpp	f41a3c575d8e862c
+6	899	7427535544629059	StringNumber_autogen/mocs_compilation.cpp	f41a3c575d8e862c
+900	3708	7427535547118328	CMakeFiles/StringNumber.dir/StringNumber_autogen/mocs_compilation.cpp.obj	ec39f5c53b0266d6
+912	4104	7427535547247944	CMakeFiles/StringNumber.dir/ui/convert.cpp.obj	9220aaf776b162a6
+6	899	7427535544629059	F:/CODE/GIThub/C_plus_plus/StringNumber/cmake-build-debug/StringNumber_autogen/timestamp	f41a3c575d8e862c
+906	3758	7427535547175499	CMakeFiles/StringNumber.dir/main.cpp.obj	960d566407b43bfe

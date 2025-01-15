@@ -1,0 +1,5 @@
+F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-debug/CMakeFiles/ConvertNumber.dir
+F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-debug/CMakeFiles/ConvertNumber_autogen_timestamp_deps.dir
+F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-debug/CMakeFiles/ConvertNumber_autogen.dir

@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\StringNumber.dir\\ui\\convert.cpp.obj",
+            "outputs": [
+                "CMakeFiles\\StringNumber.dir\\ui\\convert.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

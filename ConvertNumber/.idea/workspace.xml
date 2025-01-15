@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="ConvertNumber" targetName="ConvertNumber" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release-Visual Studio" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9648bcb6-6935-4921-9062-b03a86bd0992" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ConvertNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-905b249a420b00f46c69.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b5d76730e52233e38111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-70c391dcb4c529e458e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-15T13-42-35-0104.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ConvertNumber-Debug-1c6424eafe11f9150587.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ConvertNumber_autogen-Debug-49aff36df8ed0a02ddb4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ConvertNumber_autogen_timestamp_deps-Debug-bc437d2e636f0da116db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-27c2a78da795fbd25918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeploySupport.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeployTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConvertNumber_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clean_additional.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/cache-v2-ccfe51e91330f2945df7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-45bd5318c8b83c984093.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/codemodel-v2-64310df53fe65d1f692d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/index-2024-07-15T13-42-38-0560.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/target-ConvertNumber-Release-809dd3eb277029930982.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/target-ConvertNumber_autogen-Release-09e542755b67e79e213d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/target-ConvertNumber_autogen_timestamp_deps-Release-c9c35a82c82bf7b59da4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/toolchains-v1-695cbec03c76b89965a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.qt/QtDeploySupport.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/.qt/QtDeployTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/ConvertNumber_autogen/mocs_compilation.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/main.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/main.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir/ui/convert.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber_autogen.dir/AutogenUsed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/clean_additional.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/clion-Release-Visual Studio-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/d/d837821b41e56be66e44d235ed58caeedca12b256af95e101ad0743ab15f4905.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/UYX5XTB5RZ/moc_convert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/UYX5XTB5RZ/moc_convert.cpp.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/include/ui_Convert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/mocs_compilation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/ConvertNumber_autogen/timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/Qt6Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/Qt6Gui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/Qt6Widgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/plugins/platforms/qwindows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/convert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/convert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/convert.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/.idea/NumberConvert.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9fbc8dcaa25c4bb47c62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d7e252a60c01625eed0b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-543db6282f4d14051227.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-15T13-22-24-0987.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/target-NumberConvert-Debug-1b5bf2802c1fbee1d0a0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/target-NumberConvert_autogen-Debug-c39f5b3f0d16a8f853d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/target-NumberConvert_autogen_timestamp_deps-Debug-750b0ab8094b4f62a10c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-27c2a78da795fbd25918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/NumberConvert_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/clean_additional.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberConvert/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/.idea/NumberString.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/CMakeLists.txt.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-14530c8c00aee408680e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-15T13-28-47-0640.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/cmake-build-debug/.cmake/api/v1/reply/target-NumberString-Debug-9ea2d08b1dd9a7588643.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/ui/convert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/ui/convert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NumberString/ui/convert.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SIMS/cmake-build-debug-visualstudio2019/CMakeFiles/clion-Debug-VisualStudio2019-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/QtSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/StringNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b53452235c71b884b485.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e2cb27b58ea98986f7c7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/target-StringNumber_autogen-Debug-a5f415fcf4c717d83912.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/target-StringNumber_autogen_timestamp_deps-Debug-a7314954a1b6ff5babe6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-27c2a78da795fbd25918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/StringNumber_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/clean_additional.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/ui/convert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/ui/convert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringNumber/ui/convert.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.cmake/api/v1/reply/cache-v2-a5d7b39bfd26cdb6b3c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.cmake/api/v1/reply/cmakeFiles-v1-a4108a591d96d329b034.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.cmake/api/v1/reply/index-2024-06-11T07-44-32-0493.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.cmake/api/v1/reply/toolchains-v1-c50cb8be44ce2b9c7d06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/SIMS_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/controller/AccountManagementAndTeacherManagement.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/controller/admincontroller.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/controller/logincontroller.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/controller/studentViewController.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/database/dbmanager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/database/dbmanagerAccountAndTeacher.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/database/querymodel.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/form/adminform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/form/adminformAccountAndTeacherManagement.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/form/loginform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/form/studentform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/StudentCourses.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/StudentScore.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/course.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/student.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/teacherinformation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS.dir/src/model/useraccount.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS_autogen.dir/AutogenUsed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/SIMS_autogen.dir/ParseCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/clion-Release-Visual Studio2022-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/clion-Release-Visual Studio2022-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/d/28a0509ba39ac47dadb89cff09404f831189bfc96f91781f8e16cf1666b8ef17.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visual-studio2022/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SIMS/cmake-build-release-visualstudio2019/CMakeFiles/clion-Release-VisualStudio2019-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SIMS/cmake-build-release-visualstudio2019/CMakeFiles/clion-Release-VisualStudio2019-log.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release-Visual Studio" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xy-Summer-Sky&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xy-Summer-Sky/C_plus_plus.git&quot;,
+    &quot;accountId&quot;: &quot;e16202f3-4db4-4a7c-8c52-b95c42f94f98&quot;
+  }
+}</component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jGyvLyP4TystsTOzEbEgyHNiSr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.ConvertNumber.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CODE/GIThub/C_plus_plus/ConvertNumber&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CODE\GIThub\C_plus_plus\ConvertNumber" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConvertNumber" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertNumber" TARGET_NAME="ConvertNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertNumber" RUN_TARGET_NAME="ConvertNumber">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9648bcb6-6935-4921-9062-b03a86bd0992" name="更改" comment="" />
+      <created>1721027938047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721027938047</updated>
+      <workItem from="1721027939380" duration="5040000" />
+      <workItem from="1721047192446" duration="596000" />
+      <workItem from="1721048060165" duration="3636000" />
+      <workItem from="1721052284621" duration="396000" />
+      <workItem from="1721100192134" duration="50000" />
+      <workItem from="1721101061762" duration="11000" />
+      <workItem from="1721102246116" duration="599000" />
+      <workItem from="1721127239364" duration="4755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

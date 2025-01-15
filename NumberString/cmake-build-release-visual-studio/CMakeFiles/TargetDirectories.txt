@@ -1,0 +1,5 @@
+F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio/CMakeFiles/NumberString.dir
+F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio/CMakeFiles/edit_cache.dir
+F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio/CMakeFiles/rebuild_cache.dir
+F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio/CMakeFiles/NumberString_autogen_timestamp_deps.dir
+F:/CODE/GIThub/C_plus_plus/NumberString/cmake-build-release-visual-studio/CMakeFiles/NumberString_autogen.dir

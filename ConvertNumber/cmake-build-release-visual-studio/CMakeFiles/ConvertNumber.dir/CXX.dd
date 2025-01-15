@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\ConvertNumber.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\ConvertNumber.dir\ui\convert.cpp.obj: dyndep
+

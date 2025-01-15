@@ -1,0 +1,26 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio",
+	"dir-cur-src" : "F:/CODE/GIThub/C_plus_plus/ConvertNumber",
+	"dir-top-bld" : "F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio",
+	"dir-top-src" : "F:/CODE/GIThub/C_plus_plus/ConvertNumber",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"ConvertNumber_autogen\\include",
+		"F:\\DevelopmentKitQT_MSVC\\6.7.1\\msvc2019_64\\include\\QtCore",
+		"F:\\DevelopmentKitQT_MSVC\\6.7.1\\msvc2019_64\\include",
+		"F:\\DevelopmentKitQT_MSVC\\6.7.1\\msvc2019_64\\mkspecs\\win32-msvc",
+		"F:\\DevelopmentKitQT_MSVC\\6.7.1\\msvc2019_64\\include\\QtGui",
+		"F:\\DevelopmentKitQT_MSVC\\6.7.1\\msvc2019_64\\include\\QtWidgets"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/CODE/GIThub/C_plus_plus/ConvertNumber/cmake-build-release-visual-studio/CMakeFiles/ConvertNumber.dir"
+}
